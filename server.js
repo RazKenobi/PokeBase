@@ -24,7 +24,7 @@
 		PokedexEntry.find(function(err,pokedexEntries) {
 			if (err)
 				res.send(err)
-
+			pokedexEntries.sort('number');
 			res.json(pokedexEntries);
 		});
 	});

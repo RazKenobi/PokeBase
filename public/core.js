@@ -8,7 +8,7 @@ function mainController($scope, $http) {
 		//TO DO: SORT POKEDEX
 		.success(function(data) {
 			$scope.pokedex = data;
-			console.log(data);
+			console.log($scope.pokedex);
 		})
 		.error(function(data) {
 			console.log('Error: ' + data);
