@@ -16,3 +16,26 @@
 	// listen (start app with node server.js) ======================================
 	app.listen(8080);
 	console.log("App listening on port 8080");
+
+	var pokedex = new mongoose.Schema({
+	name: String,
+	number: String
+	});
+
+	var PokedexEntry = mongoose.model('PokedexEntry',pokedex);
+
+	/* var bulbasaur = new PokedexEntry ({
+		name: 'Bulbasaur',
+		number: '001'
+	});
+
+	 bulbasaur.save(function (err) {if (err) console.log ('Error on save!')});
+
+	var p002 = new PokedexEntry ({
+		name: 'Ivysaur',
+		number: '002'
+	});
+
+	p002.save(function (err) {if (err) console.log ('Error attemption to save ' + p002.name)});
+
+	*/
