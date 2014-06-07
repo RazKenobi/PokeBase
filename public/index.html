@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html ng-app="pokebase">
+<head>
+	<!-- META -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
+
+	<title>Node/Angular Pokemon Database App</title>
+
+	<!-- SCROLLS -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<!-- load bootstrap -->
+	<style>
+		html 					{ overflow-y:scroll; }
+		body 					{ padding-top:50px; }
+		#pokedex 				{ margin-bottom:30px; }
+	</style>
+
+	<!-- SPELLS -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><!-- load jquery -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular.min.js"></script>
+	<script src="core.js"></script>
+
+</head>
+
+<!-- SET THE CONTROLLER AND GET THE POKEDEX -->
+<body ng-controller="mainController">
+	<div class="container">
+
+		<!--- POKEDEX -->
+		<div id="list" class="row">
+			<div class="col-sm-4 col-sm-offset-4">
+
+				<!-- LOOP OVER THE POKEMON IN $scope.pokedex -->
+				<li class="animate-repeat" ng-repeat="pokemon in pokedex">
+				#{{pokemon.number}} and {{pokemon.name}}
+				</span>
+
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>
