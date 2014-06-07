@@ -1,0 +1,2160 @@
+	var pokedex = new mongoose.Schema({
+	name: String,
+	number: String
+	});
+
+	var PokedexEntry = mongoose.model('PokedexEntry',pokedex);
+
+var p001 = new PokedexEntry ({name: 'Bulbasaur', number: '001'});
+p001.save(function (err) {if (err) console.log ('Error attempting to save ' + p001.name)});
+
+var p002 = new PokedexEntry ({name: 'Ivysaur', number: '002'});
+p002.save(function (err) {if (err) console.log ('Error attempting to save ' + p002.name)});
+
+var p003 = new PokedexEntry ({name: 'Venusaur', number: '003'});
+p003.save(function (err) {if (err) console.log ('Error attempting to save ' + p003.name)});
+
+var p004 = new PokedexEntry ({name: 'Charmander', number: '004'});
+p004.save(function (err) {if (err) console.log ('Error attempting to save ' + p004.name)});
+
+var p005 = new PokedexEntry ({name: 'Charmeleon', number: '005'});
+p005.save(function (err) {if (err) console.log ('Error attempting to save ' + p005.name)});
+
+var p006 = new PokedexEntry ({name: 'Charizard', number: '006'});
+p006.save(function (err) {if (err) console.log ('Error attempting to save ' + p006.name)});
+
+var p007 = new PokedexEntry ({name: 'Squirtle', number: '007'});
+p007.save(function (err) {if (err) console.log ('Error attempting to save ' + p007.name)});
+
+var p008 = new PokedexEntry ({name: 'Wartortle', number: '008'});
+p008.save(function (err) {if (err) console.log ('Error attempting to save ' + p008.name)});
+
+var p009 = new PokedexEntry ({name: 'Blastoise', number: '009'});
+p009.save(function (err) {if (err) console.log ('Error attempting to save ' + p009.name)});
+
+var p010 = new PokedexEntry ({name: 'Caterpie', number: '010'});
+p010.save(function (err) {if (err) console.log ('Error attempting to save ' + p010.name)});
+
+var p011 = new PokedexEntry ({name: 'Metapod', number: '011'});
+p011.save(function (err) {if (err) console.log ('Error attempting to save ' + p011.name)});
+
+var p012 = new PokedexEntry ({name: 'Butterfree', number: '012'});
+p012.save(function (err) {if (err) console.log ('Error attempting to save ' + p012.name)});
+
+var p013 = new PokedexEntry ({name: 'Weedle', number: '013'});
+p013.save(function (err) {if (err) console.log ('Error attempting to save ' + p013.name)});
+
+var p014 = new PokedexEntry ({name: 'Kakuna', number: '014'});
+p014.save(function (err) {if (err) console.log ('Error attempting to save ' + p014.name)});
+
+var p015 = new PokedexEntry ({name: 'Beedrill', number: '015'});
+p015.save(function (err) {if (err) console.log ('Error attempting to save ' + p015.name)});
+
+var p016 = new PokedexEntry ({name: 'Pidgey', number: '016'});
+p016.save(function (err) {if (err) console.log ('Error attempting to save ' + p016.name)});
+
+var p017 = new PokedexEntry ({name: 'Pidgeotto', number: '017'});
+p017.save(function (err) {if (err) console.log ('Error attempting to save ' + p017.name)});
+
+var p018 = new PokedexEntry ({name: 'Pidgeot', number: '018'});
+p018.save(function (err) {if (err) console.log ('Error attempting to save ' + p018.name)});
+
+var p019 = new PokedexEntry ({name: 'Rattata', number: '019'});
+p019.save(function (err) {if (err) console.log ('Error attempting to save ' + p019.name)});
+
+var p020 = new PokedexEntry ({name: 'Raticate', number: '020'});
+p020.save(function (err) {if (err) console.log ('Error attempting to save ' + p020.name)});
+
+var p021 = new PokedexEntry ({name: 'Spearow', number: '021'});
+p021.save(function (err) {if (err) console.log ('Error attempting to save ' + p021.name)});
+
+var p022 = new PokedexEntry ({name: 'Fearow', number: '022'});
+p022.save(function (err) {if (err) console.log ('Error attempting to save ' + p022.name)});
+
+var p023 = new PokedexEntry ({name: 'Ekans', number: '023'});
+p023.save(function (err) {if (err) console.log ('Error attempting to save ' + p023.name)});
+
+var p024 = new PokedexEntry ({name: 'Arbok', number: '024'});
+p024.save(function (err) {if (err) console.log ('Error attempting to save ' + p024.name)});
+
+var p025 = new PokedexEntry ({name: 'Pikachu', number: '025'});
+p025.save(function (err) {if (err) console.log ('Error attempting to save ' + p025.name)});
+
+var p026 = new PokedexEntry ({name: 'Raichu', number: '026'});
+p026.save(function (err) {if (err) console.log ('Error attempting to save ' + p026.name)});
+
+var p027 = new PokedexEntry ({name: 'Sandshrew', number: '027'});
+p027.save(function (err) {if (err) console.log ('Error attempting to save ' + p027.name)});
+
+var p028 = new PokedexEntry ({name: 'Sandslash', number: '028'});
+p028.save(function (err) {if (err) console.log ('Error attempting to save ' + p028.name)});
+
+var p029 = new PokedexEntry ({name: 'Nidoran-F', number: '029'});
+p029.save(function (err) {if (err) console.log ('Error attempting to save ' + p029.name)});
+
+var p030 = new PokedexEntry ({name: 'Nidorina', number: '030'});
+p030.save(function (err) {if (err) console.log ('Error attempting to save ' + p030.name)});
+
+var p031 = new PokedexEntry ({name: 'Nidoqueen', number: '031'});
+p031.save(function (err) {if (err) console.log ('Error attempting to save ' + p031.name)});
+
+var p032 = new PokedexEntry ({name: 'Nidoran-M', number: '032'});
+p032.save(function (err) {if (err) console.log ('Error attempting to save ' + p032.name)});
+
+var p033 = new PokedexEntry ({name: 'Nidorino', number: '033'});
+p033.save(function (err) {if (err) console.log ('Error attempting to save ' + p033.name)});
+
+var p034 = new PokedexEntry ({name: 'Nidoking', number: '034'});
+p034.save(function (err) {if (err) console.log ('Error attempting to save ' + p034.name)});
+
+var p035 = new PokedexEntry ({name: 'Clefairy', number: '035'});
+p035.save(function (err) {if (err) console.log ('Error attempting to save ' + p035.name)});
+
+var p036 = new PokedexEntry ({name: 'Clefable', number: '036'});
+p036.save(function (err) {if (err) console.log ('Error attempting to save ' + p036.name)});
+
+var p037 = new PokedexEntry ({name: 'Vulpix', number: '037'});
+p037.save(function (err) {if (err) console.log ('Error attempting to save ' + p037.name)});
+
+var p038 = new PokedexEntry ({name: 'Ninetales', number: '038'});
+p038.save(function (err) {if (err) console.log ('Error attempting to save ' + p038.name)});
+
+var p039 = new PokedexEntry ({name: 'Jigglypuff', number: '039'});
+p039.save(function (err) {if (err) console.log ('Error attempting to save ' + p039.name)});
+
+var p040 = new PokedexEntry ({name: 'Wigglytuff', number: '040'});
+p040.save(function (err) {if (err) console.log ('Error attempting to save ' + p040.name)});
+
+var p041 = new PokedexEntry ({name: 'Zubat', number: '041'});
+p041.save(function (err) {if (err) console.log ('Error attempting to save ' + p041.name)});
+
+var p042 = new PokedexEntry ({name: 'Golbat', number: '042'});
+p042.save(function (err) {if (err) console.log ('Error attempting to save ' + p042.name)});
+
+var p043 = new PokedexEntry ({name: 'Oddish', number: '043'});
+p043.save(function (err) {if (err) console.log ('Error attempting to save ' + p043.name)});
+
+var p044 = new PokedexEntry ({name: 'Gloom', number: '044'});
+p044.save(function (err) {if (err) console.log ('Error attempting to save ' + p044.name)});
+
+var p045 = new PokedexEntry ({name: 'Vileplume', number: '045'});
+p045.save(function (err) {if (err) console.log ('Error attempting to save ' + p045.name)});
+
+var p046 = new PokedexEntry ({name: 'Paras', number: '046'});
+p046.save(function (err) {if (err) console.log ('Error attempting to save ' + p046.name)});
+
+var p047 = new PokedexEntry ({name: 'Parasect', number: '047'});
+p047.save(function (err) {if (err) console.log ('Error attempting to save ' + p047.name)});
+
+var p048 = new PokedexEntry ({name: 'Venonat', number: '048'});
+p048.save(function (err) {if (err) console.log ('Error attempting to save ' + p048.name)});
+
+var p049 = new PokedexEntry ({name: 'Venomoth', number: '049'});
+p049.save(function (err) {if (err) console.log ('Error attempting to save ' + p049.name)});
+
+var p050 = new PokedexEntry ({name: 'Diglett', number: '050'});
+p050.save(function (err) {if (err) console.log ('Error attempting to save ' + p050.name)});
+
+var p051 = new PokedexEntry ({name: 'Dugtrio', number: '051'});
+p051.save(function (err) {if (err) console.log ('Error attempting to save ' + p051.name)});
+
+var p052 = new PokedexEntry ({name: 'Meowth', number: '052'});
+p052.save(function (err) {if (err) console.log ('Error attempting to save ' + p052.name)});
+
+var p053 = new PokedexEntry ({name: 'Persian', number: '053'});
+p053.save(function (err) {if (err) console.log ('Error attempting to save ' + p053.name)});
+
+var p054 = new PokedexEntry ({name: 'Psyduck', number: '054'});
+p054.save(function (err) {if (err) console.log ('Error attempting to save ' + p054.name)});
+
+var p055 = new PokedexEntry ({name: 'Golduck', number: '055'});
+p055.save(function (err) {if (err) console.log ('Error attempting to save ' + p055.name)});
+
+var p056 = new PokedexEntry ({name: 'Mankey', number: '056'});
+p056.save(function (err) {if (err) console.log ('Error attempting to save ' + p056.name)});
+
+var p057 = new PokedexEntry ({name: 'Primeape', number: '057'});
+p057.save(function (err) {if (err) console.log ('Error attempting to save ' + p057.name)});
+
+var p058 = new PokedexEntry ({name: 'Growlithe', number: '058'});
+p058.save(function (err) {if (err) console.log ('Error attempting to save ' + p058.name)});
+
+var p059 = new PokedexEntry ({name: 'Arcanine', number: '059'});
+p059.save(function (err) {if (err) console.log ('Error attempting to save ' + p059.name)});
+
+var p060 = new PokedexEntry ({name: 'Poliwag', number: '060'});
+p060.save(function (err) {if (err) console.log ('Error attempting to save ' + p060.name)});
+
+var p061 = new PokedexEntry ({name: 'Poliwhirl', number: '061'});
+p061.save(function (err) {if (err) console.log ('Error attempting to save ' + p061.name)});
+
+var p062 = new PokedexEntry ({name: 'Poliwrath', number: '062'});
+p062.save(function (err) {if (err) console.log ('Error attempting to save ' + p062.name)});
+
+var p063 = new PokedexEntry ({name: 'Abra', number: '063'});
+p063.save(function (err) {if (err) console.log ('Error attempting to save ' + p063.name)});
+
+var p064 = new PokedexEntry ({name: 'Kadabra', number: '064'});
+p064.save(function (err) {if (err) console.log ('Error attempting to save ' + p064.name)});
+
+var p065 = new PokedexEntry ({name: 'Alakazam', number: '065'});
+p065.save(function (err) {if (err) console.log ('Error attempting to save ' + p065.name)});
+
+var p066 = new PokedexEntry ({name: 'Machop', number: '066'});
+p066.save(function (err) {if (err) console.log ('Error attempting to save ' + p066.name)});
+
+var p067 = new PokedexEntry ({name: 'Machoke', number: '067'});
+p067.save(function (err) {if (err) console.log ('Error attempting to save ' + p067.name)});
+
+var p068 = new PokedexEntry ({name: 'Machamp', number: '068'});
+p068.save(function (err) {if (err) console.log ('Error attempting to save ' + p068.name)});
+
+var p069 = new PokedexEntry ({name: 'Bellsprout', number: '069'});
+p069.save(function (err) {if (err) console.log ('Error attempting to save ' + p069.name)});
+
+var p070 = new PokedexEntry ({name: 'Weepinbell', number: '070'});
+p070.save(function (err) {if (err) console.log ('Error attempting to save ' + p070.name)});
+
+var p071 = new PokedexEntry ({name: 'Victreebel', number: '071'});
+p071.save(function (err) {if (err) console.log ('Error attempting to save ' + p071.name)});
+
+var p072 = new PokedexEntry ({name: 'Tentacool', number: '072'});
+p072.save(function (err) {if (err) console.log ('Error attempting to save ' + p072.name)});
+
+var p073 = new PokedexEntry ({name: 'Tentacruel', number: '073'});
+p073.save(function (err) {if (err) console.log ('Error attempting to save ' + p073.name)});
+
+var p074 = new PokedexEntry ({name: 'Geodude', number: '074'});
+p074.save(function (err) {if (err) console.log ('Error attempting to save ' + p074.name)});
+
+var p075 = new PokedexEntry ({name: 'Graveler', number: '075'});
+p075.save(function (err) {if (err) console.log ('Error attempting to save ' + p075.name)});
+
+var p076 = new PokedexEntry ({name: 'Golem', number: '076'});
+p076.save(function (err) {if (err) console.log ('Error attempting to save ' + p076.name)});
+
+var p077 = new PokedexEntry ({name: 'Ponyta', number: '077'});
+p077.save(function (err) {if (err) console.log ('Error attempting to save ' + p077.name)});
+
+var p078 = new PokedexEntry ({name: 'Rapidash', number: '078'});
+p078.save(function (err) {if (err) console.log ('Error attempting to save ' + p078.name)});
+
+var p079 = new PokedexEntry ({name: 'Slowpoke', number: '079'});
+p079.save(function (err) {if (err) console.log ('Error attempting to save ' + p079.name)});
+
+var p080 = new PokedexEntry ({name: 'Slowbro', number: '080'});
+p080.save(function (err) {if (err) console.log ('Error attempting to save ' + p080.name)});
+
+var p081 = new PokedexEntry ({name: 'Magnemite', number: '081'});
+p081.save(function (err) {if (err) console.log ('Error attempting to save ' + p081.name)});
+
+var p082 = new PokedexEntry ({name: 'Magneton', number: '082'});
+p082.save(function (err) {if (err) console.log ('Error attempting to save ' + p082.name)});
+
+var p083 = new PokedexEntry ({name: 'Farfetchd', number: '083'});
+p083.save(function (err) {if (err) console.log ('Error attempting to save ' + p083.name)});
+
+var p084 = new PokedexEntry ({name: 'Doduo', number: '084'});
+p084.save(function (err) {if (err) console.log ('Error attempting to save ' + p084.name)});
+
+var p085 = new PokedexEntry ({name: 'Dodrio', number: '085'});
+p085.save(function (err) {if (err) console.log ('Error attempting to save ' + p085.name)});
+
+var p086 = new PokedexEntry ({name: 'Seel', number: '086'});
+p086.save(function (err) {if (err) console.log ('Error attempting to save ' + p086.name)});
+
+var p087 = new PokedexEntry ({name: 'Dewgong', number: '087'});
+p087.save(function (err) {if (err) console.log ('Error attempting to save ' + p087.name)});
+
+var p088 = new PokedexEntry ({name: 'Grimer', number: '088'});
+p088.save(function (err) {if (err) console.log ('Error attempting to save ' + p088.name)});
+
+var p089 = new PokedexEntry ({name: 'Muk', number: '089'});
+p089.save(function (err) {if (err) console.log ('Error attempting to save ' + p089.name)});
+
+var p090 = new PokedexEntry ({name: 'Shellder', number: '090'});
+p090.save(function (err) {if (err) console.log ('Error attempting to save ' + p090.name)});
+
+var p091 = new PokedexEntry ({name: 'Cloyster', number: '091'});
+p091.save(function (err) {if (err) console.log ('Error attempting to save ' + p091.name)});
+
+var p092 = new PokedexEntry ({name: 'Gastly', number: '092'});
+p092.save(function (err) {if (err) console.log ('Error attempting to save ' + p092.name)});
+
+var p093 = new PokedexEntry ({name: 'Haunter', number: '093'});
+p093.save(function (err) {if (err) console.log ('Error attempting to save ' + p093.name)});
+
+var p094 = new PokedexEntry ({name: 'Gengar', number: '094'});
+p094.save(function (err) {if (err) console.log ('Error attempting to save ' + p094.name)});
+
+var p095 = new PokedexEntry ({name: 'Onix', number: '095'});
+p095.save(function (err) {if (err) console.log ('Error attempting to save ' + p095.name)});
+
+var p096 = new PokedexEntry ({name: 'Drowzee', number: '096'});
+p096.save(function (err) {if (err) console.log ('Error attempting to save ' + p096.name)});
+
+var p097 = new PokedexEntry ({name: 'Hypno', number: '097'});
+p097.save(function (err) {if (err) console.log ('Error attempting to save ' + p097.name)});
+
+var p098 = new PokedexEntry ({name: 'Krabby', number: '098'});
+p098.save(function (err) {if (err) console.log ('Error attempting to save ' + p098.name)});
+
+var p099 = new PokedexEntry ({name: 'Kingler', number: '099'});
+p099.save(function (err) {if (err) console.log ('Error attempting to save ' + p099.name)});
+
+var p100 = new PokedexEntry ({name: 'Voltorb', number: '100'});
+p100.save(function (err) {if (err) console.log ('Error attempting to save ' + p100.name)});
+
+var p101 = new PokedexEntry ({name: 'Electrode', number: '101'});
+p101.save(function (err) {if (err) console.log ('Error attempting to save ' + p101.name)});
+
+var p102 = new PokedexEntry ({name: 'Exeggcute', number: '102'});
+p102.save(function (err) {if (err) console.log ('Error attempting to save ' + p102.name)});
+
+var p103 = new PokedexEntry ({name: 'Exeggutor', number: '103'});
+p103.save(function (err) {if (err) console.log ('Error attempting to save ' + p103.name)});
+
+var p104 = new PokedexEntry ({name: 'Cubone', number: '104'});
+p104.save(function (err) {if (err) console.log ('Error attempting to save ' + p104.name)});
+
+var p105 = new PokedexEntry ({name: 'Marowak', number: '105'});
+p105.save(function (err) {if (err) console.log ('Error attempting to save ' + p105.name)});
+
+var p106 = new PokedexEntry ({name: 'Hitmonlee', number: '106'});
+p106.save(function (err) {if (err) console.log ('Error attempting to save ' + p106.name)});
+
+var p107 = new PokedexEntry ({name: 'Hitmonchan', number: '107'});
+p107.save(function (err) {if (err) console.log ('Error attempting to save ' + p107.name)});
+
+var p108 = new PokedexEntry ({name: 'Lickitung', number: '108'});
+p108.save(function (err) {if (err) console.log ('Error attempting to save ' + p108.name)});
+
+var p109 = new PokedexEntry ({name: 'Koffing', number: '109'});
+p109.save(function (err) {if (err) console.log ('Error attempting to save ' + p109.name)});
+
+var p110 = new PokedexEntry ({name: 'Weezing', number: '110'});
+p110.save(function (err) {if (err) console.log ('Error attempting to save ' + p110.name)});
+
+var p111 = new PokedexEntry ({name: 'Rhyhorn', number: '111'});
+p111.save(function (err) {if (err) console.log ('Error attempting to save ' + p111.name)});
+
+var p112 = new PokedexEntry ({name: 'Rhydon', number: '112'});
+p112.save(function (err) {if (err) console.log ('Error attempting to save ' + p112.name)});
+
+var p113 = new PokedexEntry ({name: 'Chansey', number: '113'});
+p113.save(function (err) {if (err) console.log ('Error attempting to save ' + p113.name)});
+
+var p114 = new PokedexEntry ({name: 'Tangela', number: '114'});
+p114.save(function (err) {if (err) console.log ('Error attempting to save ' + p114.name)});
+
+var p115 = new PokedexEntry ({name: 'Kangaskhan', number: '115'});
+p115.save(function (err) {if (err) console.log ('Error attempting to save ' + p115.name)});
+
+var p116 = new PokedexEntry ({name: 'Horsea', number: '116'});
+p116.save(function (err) {if (err) console.log ('Error attempting to save ' + p116.name)});
+
+var p117 = new PokedexEntry ({name: 'Seadra', number: '117'});
+p117.save(function (err) {if (err) console.log ('Error attempting to save ' + p117.name)});
+
+var p118 = new PokedexEntry ({name: 'Goldeen', number: '118'});
+p118.save(function (err) {if (err) console.log ('Error attempting to save ' + p118.name)});
+
+var p119 = new PokedexEntry ({name: 'Seaking', number: '119'});
+p119.save(function (err) {if (err) console.log ('Error attempting to save ' + p119.name)});
+
+var p120 = new PokedexEntry ({name: 'Staryu', number: '120'});
+p120.save(function (err) {if (err) console.log ('Error attempting to save ' + p120.name)});
+
+var p121 = new PokedexEntry ({name: 'Starmie', number: '121'});
+p121.save(function (err) {if (err) console.log ('Error attempting to save ' + p121.name)});
+
+var p122 = new PokedexEntry ({name: 'Mr. Mime', number: '122'});
+p122.save(function (err) {if (err) console.log ('Error attempting to save ' + p122.name)});
+
+var p123 = new PokedexEntry ({name: 'Scyther', number: '123'});
+p123.save(function (err) {if (err) console.log ('Error attempting to save ' + p123.name)});
+
+var p124 = new PokedexEntry ({name: 'Jynx', number: '124'});
+p124.save(function (err) {if (err) console.log ('Error attempting to save ' + p124.name)});
+
+var p125 = new PokedexEntry ({name: 'Electabuzz', number: '125'});
+p125.save(function (err) {if (err) console.log ('Error attempting to save ' + p125.name)});
+
+var p126 = new PokedexEntry ({name: 'Magmar', number: '126'});
+p126.save(function (err) {if (err) console.log ('Error attempting to save ' + p126.name)});
+
+var p127 = new PokedexEntry ({name: 'Pinsir', number: '127'});
+p127.save(function (err) {if (err) console.log ('Error attempting to save ' + p127.name)});
+
+var p128 = new PokedexEntry ({name: 'Tauros', number: '128'});
+p128.save(function (err) {if (err) console.log ('Error attempting to save ' + p128.name)});
+
+var p129 = new PokedexEntry ({name: 'Magikarp', number: '129'});
+p129.save(function (err) {if (err) console.log ('Error attempting to save ' + p129.name)});
+
+var p130 = new PokedexEntry ({name: 'Gyarados', number: '130'});
+p130.save(function (err) {if (err) console.log ('Error attempting to save ' + p130.name)});
+
+var p131 = new PokedexEntry ({name: 'Lapras', number: '131'});
+p131.save(function (err) {if (err) console.log ('Error attempting to save ' + p131.name)});
+
+var p132 = new PokedexEntry ({name: 'Ditto', number: '132'});
+p132.save(function (err) {if (err) console.log ('Error attempting to save ' + p132.name)});
+
+var p133 = new PokedexEntry ({name: 'Eevee', number: '133'});
+p133.save(function (err) {if (err) console.log ('Error attempting to save ' + p133.name)});
+
+var p134 = new PokedexEntry ({name: 'Vaporeon', number: '134'});
+p134.save(function (err) {if (err) console.log ('Error attempting to save ' + p134.name)});
+
+var p135 = new PokedexEntry ({name: 'Jolteon', number: '135'});
+p135.save(function (err) {if (err) console.log ('Error attempting to save ' + p135.name)});
+
+var p136 = new PokedexEntry ({name: 'Flareon', number: '136'});
+p136.save(function (err) {if (err) console.log ('Error attempting to save ' + p136.name)});
+
+var p137 = new PokedexEntry ({name: 'Porygon', number: '137'});
+p137.save(function (err) {if (err) console.log ('Error attempting to save ' + p137.name)});
+
+var p138 = new PokedexEntry ({name: 'Omanyte', number: '138'});
+p138.save(function (err) {if (err) console.log ('Error attempting to save ' + p138.name)});
+
+var p139 = new PokedexEntry ({name: 'Omastar', number: '139'});
+p139.save(function (err) {if (err) console.log ('Error attempting to save ' + p139.name)});
+
+var p140 = new PokedexEntry ({name: 'Kabuto', number: '140'});
+p140.save(function (err) {if (err) console.log ('Error attempting to save ' + p140.name)});
+
+var p141 = new PokedexEntry ({name: 'Kabutops', number: '141'});
+p141.save(function (err) {if (err) console.log ('Error attempting to save ' + p141.name)});
+
+var p142 = new PokedexEntry ({name: 'Aerodactyl', number: '142'});
+p142.save(function (err) {if (err) console.log ('Error attempting to save ' + p142.name)});
+
+var p143 = new PokedexEntry ({name: 'Snorlax', number: '143'});
+p143.save(function (err) {if (err) console.log ('Error attempting to save ' + p143.name)});
+
+var p144 = new PokedexEntry ({name: 'Articuno', number: '144'});
+p144.save(function (err) {if (err) console.log ('Error attempting to save ' + p144.name)});
+
+var p145 = new PokedexEntry ({name: 'Zapdos', number: '145'});
+p145.save(function (err) {if (err) console.log ('Error attempting to save ' + p145.name)});
+
+var p146 = new PokedexEntry ({name: 'Moltres', number: '146'});
+p146.save(function (err) {if (err) console.log ('Error attempting to save ' + p146.name)});
+
+var p147 = new PokedexEntry ({name: 'Dratini', number: '147'});
+p147.save(function (err) {if (err) console.log ('Error attempting to save ' + p147.name)});
+
+var p148 = new PokedexEntry ({name: 'Dragonair', number: '148'});
+p148.save(function (err) {if (err) console.log ('Error attempting to save ' + p148.name)});
+
+var p149 = new PokedexEntry ({name: 'Dragonite', number: '149'});
+p149.save(function (err) {if (err) console.log ('Error attempting to save ' + p149.name)});
+
+var p150 = new PokedexEntry ({name: 'Mewtwo', number: '150'});
+p150.save(function (err) {if (err) console.log ('Error attempting to save ' + p150.name)});
+
+var p151 = new PokedexEntry ({name: 'Mew', number: '151'});
+p151.save(function (err) {if (err) console.log ('Error attempting to save ' + p151.name)});
+
+var p152 = new PokedexEntry ({name: 'Chikorita', number: '152'});
+p152.save(function (err) {if (err) console.log ('Error attempting to save ' + p152.name)});
+
+var p153 = new PokedexEntry ({name: 'Bayleef', number: '153'});
+p153.save(function (err) {if (err) console.log ('Error attempting to save ' + p153.name)});
+
+var p154 = new PokedexEntry ({name: 'Meganium', number: '154'});
+p154.save(function (err) {if (err) console.log ('Error attempting to save ' + p154.name)});
+
+var p155 = new PokedexEntry ({name: 'Cyndaquil', number: '155'});
+p155.save(function (err) {if (err) console.log ('Error attempting to save ' + p155.name)});
+
+var p156 = new PokedexEntry ({name: 'Quilava', number: '156'});
+p156.save(function (err) {if (err) console.log ('Error attempting to save ' + p156.name)});
+
+var p157 = new PokedexEntry ({name: 'Typhlosion', number: '157'});
+p157.save(function (err) {if (err) console.log ('Error attempting to save ' + p157.name)});
+
+var p158 = new PokedexEntry ({name: 'Totodile', number: '158'});
+p158.save(function (err) {if (err) console.log ('Error attempting to save ' + p158.name)});
+
+var p159 = new PokedexEntry ({name: 'Croconaw', number: '159'});
+p159.save(function (err) {if (err) console.log ('Error attempting to save ' + p159.name)});
+
+var p160 = new PokedexEntry ({name: 'Feraligatr', number: '160'});
+p160.save(function (err) {if (err) console.log ('Error attempting to save ' + p160.name)});
+
+var p161 = new PokedexEntry ({name: 'Sentret', number: '161'});
+p161.save(function (err) {if (err) console.log ('Error attempting to save ' + p161.name)});
+
+var p162 = new PokedexEntry ({name: 'Furret', number: '162'});
+p162.save(function (err) {if (err) console.log ('Error attempting to save ' + p162.name)});
+
+var p163 = new PokedexEntry ({name: 'Hoothoot', number: '163'});
+p163.save(function (err) {if (err) console.log ('Error attempting to save ' + p163.name)});
+
+var p164 = new PokedexEntry ({name: 'Noctowl', number: '164'});
+p164.save(function (err) {if (err) console.log ('Error attempting to save ' + p164.name)});
+
+var p165 = new PokedexEntry ({name: 'Ledyba', number: '165'});
+p165.save(function (err) {if (err) console.log ('Error attempting to save ' + p165.name)});
+
+var p166 = new PokedexEntry ({name: 'Ledian', number: '166'});
+p166.save(function (err) {if (err) console.log ('Error attempting to save ' + p166.name)});
+
+var p167 = new PokedexEntry ({name: 'Spinarak', number: '167'});
+p167.save(function (err) {if (err) console.log ('Error attempting to save ' + p167.name)});
+
+var p168 = new PokedexEntry ({name: 'Ariados', number: '168'});
+p168.save(function (err) {if (err) console.log ('Error attempting to save ' + p168.name)});
+
+var p169 = new PokedexEntry ({name: 'Crobat', number: '169'});
+p169.save(function (err) {if (err) console.log ('Error attempting to save ' + p169.name)});
+
+var p170 = new PokedexEntry ({name: 'Chinchou', number: '170'});
+p170.save(function (err) {if (err) console.log ('Error attempting to save ' + p170.name)});
+
+var p171 = new PokedexEntry ({name: 'Lanturn', number: '171'});
+p171.save(function (err) {if (err) console.log ('Error attempting to save ' + p171.name)});
+
+var p172 = new PokedexEntry ({name: 'Pichu', number: '172'});
+p172.save(function (err) {if (err) console.log ('Error attempting to save ' + p172.name)});
+
+var p173 = new PokedexEntry ({name: 'Cleffa', number: '173'});
+p173.save(function (err) {if (err) console.log ('Error attempting to save ' + p173.name)});
+
+var p174 = new PokedexEntry ({name: 'Igglybuff', number: '174'});
+p174.save(function (err) {if (err) console.log ('Error attempting to save ' + p174.name)});
+
+var p175 = new PokedexEntry ({name: 'Togepi', number: '175'});
+p175.save(function (err) {if (err) console.log ('Error attempting to save ' + p175.name)});
+
+var p176 = new PokedexEntry ({name: 'Togetic', number: '176'});
+p176.save(function (err) {if (err) console.log ('Error attempting to save ' + p176.name)});
+
+var p177 = new PokedexEntry ({name: 'Natu', number: '177'});
+p177.save(function (err) {if (err) console.log ('Error attempting to save ' + p177.name)});
+
+var p178 = new PokedexEntry ({name: 'Xatu', number: '178'});
+p178.save(function (err) {if (err) console.log ('Error attempting to save ' + p178.name)});
+
+var p179 = new PokedexEntry ({name: 'Mareep', number: '179'});
+p179.save(function (err) {if (err) console.log ('Error attempting to save ' + p179.name)});
+
+var p180 = new PokedexEntry ({name: 'Flaaffy', number: '180'});
+p180.save(function (err) {if (err) console.log ('Error attempting to save ' + p180.name)});
+
+var p181 = new PokedexEntry ({name: 'Ampharos', number: '181'});
+p181.save(function (err) {if (err) console.log ('Error attempting to save ' + p181.name)});
+
+var p182 = new PokedexEntry ({name: 'Bellossom', number: '182'});
+p182.save(function (err) {if (err) console.log ('Error attempting to save ' + p182.name)});
+
+var p183 = new PokedexEntry ({name: 'Marill', number: '183'});
+p183.save(function (err) {if (err) console.log ('Error attempting to save ' + p183.name)});
+
+var p184 = new PokedexEntry ({name: 'Azumarill', number: '184'});
+p184.save(function (err) {if (err) console.log ('Error attempting to save ' + p184.name)});
+
+var p185 = new PokedexEntry ({name: 'Sudowoodo', number: '185'});
+p185.save(function (err) {if (err) console.log ('Error attempting to save ' + p185.name)});
+
+var p186 = new PokedexEntry ({name: 'Politoed', number: '186'});
+p186.save(function (err) {if (err) console.log ('Error attempting to save ' + p186.name)});
+
+var p187 = new PokedexEntry ({name: 'Hoppip', number: '187'});
+p187.save(function (err) {if (err) console.log ('Error attempting to save ' + p187.name)});
+
+var p188 = new PokedexEntry ({name: 'Skiploom', number: '188'});
+p188.save(function (err) {if (err) console.log ('Error attempting to save ' + p188.name)});
+
+var p189 = new PokedexEntry ({name: 'Jumpluff', number: '189'});
+p189.save(function (err) {if (err) console.log ('Error attempting to save ' + p189.name)});
+
+var p190 = new PokedexEntry ({name: 'Aipom', number: '190'});
+p190.save(function (err) {if (err) console.log ('Error attempting to save ' + p190.name)});
+
+var p191 = new PokedexEntry ({name: 'Sunkern', number: '191'});
+p191.save(function (err) {if (err) console.log ('Error attempting to save ' + p191.name)});
+
+var p192 = new PokedexEntry ({name: 'Sunflora', number: '192'});
+p192.save(function (err) {if (err) console.log ('Error attempting to save ' + p192.name)});
+
+var p193 = new PokedexEntry ({name: 'Yanma', number: '193'});
+p193.save(function (err) {if (err) console.log ('Error attempting to save ' + p193.name)});
+
+var p194 = new PokedexEntry ({name: 'Wooper', number: '194'});
+p194.save(function (err) {if (err) console.log ('Error attempting to save ' + p194.name)});
+
+var p195 = new PokedexEntry ({name: 'Quagsire', number: '195'});
+p195.save(function (err) {if (err) console.log ('Error attempting to save ' + p195.name)});
+
+var p196 = new PokedexEntry ({name: 'Espeon', number: '196'});
+p196.save(function (err) {if (err) console.log ('Error attempting to save ' + p196.name)});
+
+var p197 = new PokedexEntry ({name: 'Umbreon', number: '197'});
+p197.save(function (err) {if (err) console.log ('Error attempting to save ' + p197.name)});
+
+var p198 = new PokedexEntry ({name: 'Murkrow', number: '198'});
+p198.save(function (err) {if (err) console.log ('Error attempting to save ' + p198.name)});
+
+var p199 = new PokedexEntry ({name: 'Slowking', number: '199'});
+p199.save(function (err) {if (err) console.log ('Error attempting to save ' + p199.name)});
+
+var p200 = new PokedexEntry ({name: 'Misdreavus', number: '200'});
+p200.save(function (err) {if (err) console.log ('Error attempting to save ' + p200.name)});
+
+var p201 = new PokedexEntry ({name: 'Unown', number: '201'});
+p201.save(function (err) {if (err) console.log ('Error attempting to save ' + p201.name)});
+
+var p202 = new PokedexEntry ({name: 'Wobbuffet', number: '202'});
+p202.save(function (err) {if (err) console.log ('Error attempting to save ' + p202.name)});
+
+var p203 = new PokedexEntry ({name: 'Girafarig', number: '203'});
+p203.save(function (err) {if (err) console.log ('Error attempting to save ' + p203.name)});
+
+var p204 = new PokedexEntry ({name: 'Pineco', number: '204'});
+p204.save(function (err) {if (err) console.log ('Error attempting to save ' + p204.name)});
+
+var p205 = new PokedexEntry ({name: 'Forretress', number: '205'});
+p205.save(function (err) {if (err) console.log ('Error attempting to save ' + p205.name)});
+
+var p206 = new PokedexEntry ({name: 'Dunsparce', number: '206'});
+p206.save(function (err) {if (err) console.log ('Error attempting to save ' + p206.name)});
+
+var p207 = new PokedexEntry ({name: 'Gligar', number: '207'});
+p207.save(function (err) {if (err) console.log ('Error attempting to save ' + p207.name)});
+
+var p208 = new PokedexEntry ({name: 'Steelix', number: '208'});
+p208.save(function (err) {if (err) console.log ('Error attempting to save ' + p208.name)});
+
+var p209 = new PokedexEntry ({name: 'Snubbull', number: '209'});
+p209.save(function (err) {if (err) console.log ('Error attempting to save ' + p209.name)});
+
+var p210 = new PokedexEntry ({name: 'Granbull', number: '210'});
+p210.save(function (err) {if (err) console.log ('Error attempting to save ' + p210.name)});
+
+var p211 = new PokedexEntry ({name: 'Qwilfish', number: '211'});
+p211.save(function (err) {if (err) console.log ('Error attempting to save ' + p211.name)});
+
+var p212 = new PokedexEntry ({name: 'Scizor', number: '212'});
+p212.save(function (err) {if (err) console.log ('Error attempting to save ' + p212.name)});
+
+var p213 = new PokedexEntry ({name: 'Shuckle', number: '213'});
+p213.save(function (err) {if (err) console.log ('Error attempting to save ' + p213.name)});
+
+var p214 = new PokedexEntry ({name: 'Heracross', number: '214'});
+p214.save(function (err) {if (err) console.log ('Error attempting to save ' + p214.name)});
+
+var p215 = new PokedexEntry ({name: 'Sneasel', number: '215'});
+p215.save(function (err) {if (err) console.log ('Error attempting to save ' + p215.name)});
+
+var p216 = new PokedexEntry ({name: 'Teddiursa', number: '216'});
+p216.save(function (err) {if (err) console.log ('Error attempting to save ' + p216.name)});
+
+var p217 = new PokedexEntry ({name: 'Ursaring', number: '217'});
+p217.save(function (err) {if (err) console.log ('Error attempting to save ' + p217.name)});
+
+var p218 = new PokedexEntry ({name: 'Slugma', number: '218'});
+p218.save(function (err) {if (err) console.log ('Error attempting to save ' + p218.name)});
+
+var p219 = new PokedexEntry ({name: 'Magcargo', number: '219'});
+p219.save(function (err) {if (err) console.log ('Error attempting to save ' + p219.name)});
+
+var p220 = new PokedexEntry ({name: 'Swinub', number: '220'});
+p220.save(function (err) {if (err) console.log ('Error attempting to save ' + p220.name)});
+
+var p221 = new PokedexEntry ({name: 'Piloswine', number: '221'});
+p221.save(function (err) {if (err) console.log ('Error attempting to save ' + p221.name)});
+
+var p222 = new PokedexEntry ({name: 'Corsola', number: '222'});
+p222.save(function (err) {if (err) console.log ('Error attempting to save ' + p222.name)});
+
+var p223 = new PokedexEntry ({name: 'Remoraid', number: '223'});
+p223.save(function (err) {if (err) console.log ('Error attempting to save ' + p223.name)});
+
+var p224 = new PokedexEntry ({name: 'Octillery', number: '224'});
+p224.save(function (err) {if (err) console.log ('Error attempting to save ' + p224.name)});
+
+var p225 = new PokedexEntry ({name: 'Delibird', number: '225'});
+p225.save(function (err) {if (err) console.log ('Error attempting to save ' + p225.name)});
+
+var p226 = new PokedexEntry ({name: 'Mantine', number: '226'});
+p226.save(function (err) {if (err) console.log ('Error attempting to save ' + p226.name)});
+
+var p227 = new PokedexEntry ({name: 'Skarmory', number: '227'});
+p227.save(function (err) {if (err) console.log ('Error attempting to save ' + p227.name)});
+
+var p228 = new PokedexEntry ({name: 'Houndour', number: '228'});
+p228.save(function (err) {if (err) console.log ('Error attempting to save ' + p228.name)});
+
+var p229 = new PokedexEntry ({name: 'Houndoom', number: '229'});
+p229.save(function (err) {if (err) console.log ('Error attempting to save ' + p229.name)});
+
+var p230 = new PokedexEntry ({name: 'Kingdra', number: '230'});
+p230.save(function (err) {if (err) console.log ('Error attempting to save ' + p230.name)});
+
+var p231 = new PokedexEntry ({name: 'Phanpy', number: '231'});
+p231.save(function (err) {if (err) console.log ('Error attempting to save ' + p231.name)});
+
+var p232 = new PokedexEntry ({name: 'Donphan', number: '232'});
+p232.save(function (err) {if (err) console.log ('Error attempting to save ' + p232.name)});
+
+var p233 = new PokedexEntry ({name: 'Porygon2', number: '233'});
+p233.save(function (err) {if (err) console.log ('Error attempting to save ' + p233.name)});
+
+var p234 = new PokedexEntry ({name: 'Stantler', number: '234'});
+p234.save(function (err) {if (err) console.log ('Error attempting to save ' + p234.name)});
+
+var p235 = new PokedexEntry ({name: 'Smeargle', number: '235'});
+p235.save(function (err) {if (err) console.log ('Error attempting to save ' + p235.name)});
+
+var p236 = new PokedexEntry ({name: 'Tyrogue', number: '236'});
+p236.save(function (err) {if (err) console.log ('Error attempting to save ' + p236.name)});
+
+var p237 = new PokedexEntry ({name: 'Hitmontop', number: '237'});
+p237.save(function (err) {if (err) console.log ('Error attempting to save ' + p237.name)});
+
+var p238 = new PokedexEntry ({name: 'Smoochum', number: '238'});
+p238.save(function (err) {if (err) console.log ('Error attempting to save ' + p238.name)});
+
+var p239 = new PokedexEntry ({name: 'Elekid', number: '239'});
+p239.save(function (err) {if (err) console.log ('Error attempting to save ' + p239.name)});
+
+var p240 = new PokedexEntry ({name: 'Magby', number: '240'});
+p240.save(function (err) {if (err) console.log ('Error attempting to save ' + p240.name)});
+
+var p241 = new PokedexEntry ({name: 'Miltank', number: '241'});
+p241.save(function (err) {if (err) console.log ('Error attempting to save ' + p241.name)});
+
+var p242 = new PokedexEntry ({name: 'Blissey', number: '242'});
+p242.save(function (err) {if (err) console.log ('Error attempting to save ' + p242.name)});
+
+var p243 = new PokedexEntry ({name: 'Raikou', number: '243'});
+p243.save(function (err) {if (err) console.log ('Error attempting to save ' + p243.name)});
+
+var p244 = new PokedexEntry ({name: 'Entei', number: '244'});
+p244.save(function (err) {if (err) console.log ('Error attempting to save ' + p244.name)});
+
+var p245 = new PokedexEntry ({name: 'Suicune', number: '245'});
+p245.save(function (err) {if (err) console.log ('Error attempting to save ' + p245.name)});
+
+var p246 = new PokedexEntry ({name: 'Larvitar', number: '246'});
+p246.save(function (err) {if (err) console.log ('Error attempting to save ' + p246.name)});
+
+var p247 = new PokedexEntry ({name: 'Pupitar', number: '247'});
+p247.save(function (err) {if (err) console.log ('Error attempting to save ' + p247.name)});
+
+var p248 = new PokedexEntry ({name: 'Tyranitar', number: '248'});
+p248.save(function (err) {if (err) console.log ('Error attempting to save ' + p248.name)});
+
+var p249 = new PokedexEntry ({name: 'Lugia', number: '249'});
+p249.save(function (err) {if (err) console.log ('Error attempting to save ' + p249.name)});
+
+var p250 = new PokedexEntry ({name: 'Ho-Oh', number: '250'});
+p250.save(function (err) {if (err) console.log ('Error attempting to save ' + p250.name)});
+
+var p251 = new PokedexEntry ({name: 'Celebi', number: '251'});
+p251.save(function (err) {if (err) console.log ('Error attempting to save ' + p251.name)});
+
+var p252 = new PokedexEntry ({name: 'Treecko', number: '252'});
+p252.save(function (err) {if (err) console.log ('Error attempting to save ' + p252.name)});
+
+var p253 = new PokedexEntry ({name: 'Grovyle', number: '253'});
+p253.save(function (err) {if (err) console.log ('Error attempting to save ' + p253.name)});
+
+var p254 = new PokedexEntry ({name: 'Sceptile', number: '254'});
+p254.save(function (err) {if (err) console.log ('Error attempting to save ' + p254.name)});
+
+var p255 = new PokedexEntry ({name: 'Torchic', number: '255'});
+p255.save(function (err) {if (err) console.log ('Error attempting to save ' + p255.name)});
+
+var p256 = new PokedexEntry ({name: 'Combusken', number: '256'});
+p256.save(function (err) {if (err) console.log ('Error attempting to save ' + p256.name)});
+
+var p257 = new PokedexEntry ({name: 'Blaziken', number: '257'});
+p257.save(function (err) {if (err) console.log ('Error attempting to save ' + p257.name)});
+
+var p258 = new PokedexEntry ({name: 'Mudkip', number: '258'});
+p258.save(function (err) {if (err) console.log ('Error attempting to save ' + p258.name)});
+
+var p259 = new PokedexEntry ({name: 'Marshtomp', number: '259'});
+p259.save(function (err) {if (err) console.log ('Error attempting to save ' + p259.name)});
+
+var p260 = new PokedexEntry ({name: 'Swampert', number: '260'});
+p260.save(function (err) {if (err) console.log ('Error attempting to save ' + p260.name)});
+
+var p261 = new PokedexEntry ({name: 'Poochyena', number: '261'});
+p261.save(function (err) {if (err) console.log ('Error attempting to save ' + p261.name)});
+
+var p262 = new PokedexEntry ({name: 'Mightyena', number: '262'});
+p262.save(function (err) {if (err) console.log ('Error attempting to save ' + p262.name)});
+
+var p263 = new PokedexEntry ({name: 'Zigzagoon', number: '263'});
+p263.save(function (err) {if (err) console.log ('Error attempting to save ' + p263.name)});
+
+var p264 = new PokedexEntry ({name: 'Linoone', number: '264'});
+p264.save(function (err) {if (err) console.log ('Error attempting to save ' + p264.name)});
+
+var p265 = new PokedexEntry ({name: 'Wurmple', number: '265'});
+p265.save(function (err) {if (err) console.log ('Error attempting to save ' + p265.name)});
+
+var p266 = new PokedexEntry ({name: 'Silcoon', number: '266'});
+p266.save(function (err) {if (err) console.log ('Error attempting to save ' + p266.name)});
+
+var p267 = new PokedexEntry ({name: 'Beautifly', number: '267'});
+p267.save(function (err) {if (err) console.log ('Error attempting to save ' + p267.name)});
+
+var p268 = new PokedexEntry ({name: 'Cascoon', number: '268'});
+p268.save(function (err) {if (err) console.log ('Error attempting to save ' + p268.name)});
+
+var p269 = new PokedexEntry ({name: 'Dustox', number: '269'});
+p269.save(function (err) {if (err) console.log ('Error attempting to save ' + p269.name)});
+
+var p270 = new PokedexEntry ({name: 'Lotad', number: '270'});
+p270.save(function (err) {if (err) console.log ('Error attempting to save ' + p270.name)});
+
+var p271 = new PokedexEntry ({name: 'Lombre', number: '271'});
+p271.save(function (err) {if (err) console.log ('Error attempting to save ' + p271.name)});
+
+var p272 = new PokedexEntry ({name: 'Ludicolo', number: '272'});
+p272.save(function (err) {if (err) console.log ('Error attempting to save ' + p272.name)});
+
+var p273 = new PokedexEntry ({name: 'Seedot', number: '273'});
+p273.save(function (err) {if (err) console.log ('Error attempting to save ' + p273.name)});
+
+var p274 = new PokedexEntry ({name: 'Nuzleaf', number: '274'});
+p274.save(function (err) {if (err) console.log ('Error attempting to save ' + p274.name)});
+
+var p275 = new PokedexEntry ({name: 'Shiftry', number: '275'});
+p275.save(function (err) {if (err) console.log ('Error attempting to save ' + p275.name)});
+
+var p276 = new PokedexEntry ({name: 'Taillow', number: '276'});
+p276.save(function (err) {if (err) console.log ('Error attempting to save ' + p276.name)});
+
+var p277 = new PokedexEntry ({name: 'Swellow', number: '277'});
+p277.save(function (err) {if (err) console.log ('Error attempting to save ' + p277.name)});
+
+var p278 = new PokedexEntry ({name: 'Wingull', number: '278'});
+p278.save(function (err) {if (err) console.log ('Error attempting to save ' + p278.name)});
+
+var p279 = new PokedexEntry ({name: 'Pelipper', number: '279'});
+p279.save(function (err) {if (err) console.log ('Error attempting to save ' + p279.name)});
+
+var p280 = new PokedexEntry ({name: 'Ralts', number: '280'});
+p280.save(function (err) {if (err) console.log ('Error attempting to save ' + p280.name)});
+
+var p281 = new PokedexEntry ({name: 'Kirlia', number: '281'});
+p281.save(function (err) {if (err) console.log ('Error attempting to save ' + p281.name)});
+
+var p282 = new PokedexEntry ({name: 'Gardevoir', number: '282'});
+p282.save(function (err) {if (err) console.log ('Error attempting to save ' + p282.name)});
+
+var p283 = new PokedexEntry ({name: 'Surskit', number: '283'});
+p283.save(function (err) {if (err) console.log ('Error attempting to save ' + p283.name)});
+
+var p284 = new PokedexEntry ({name: 'Masquerain', number: '284'});
+p284.save(function (err) {if (err) console.log ('Error attempting to save ' + p284.name)});
+
+var p285 = new PokedexEntry ({name: 'Shroomish', number: '285'});
+p285.save(function (err) {if (err) console.log ('Error attempting to save ' + p285.name)});
+
+var p286 = new PokedexEntry ({name: 'Breloom', number: '286'});
+p286.save(function (err) {if (err) console.log ('Error attempting to save ' + p286.name)});
+
+var p287 = new PokedexEntry ({name: 'Slakoth', number: '287'});
+p287.save(function (err) {if (err) console.log ('Error attempting to save ' + p287.name)});
+
+var p288 = new PokedexEntry ({name: 'Vigoroth', number: '288'});
+p288.save(function (err) {if (err) console.log ('Error attempting to save ' + p288.name)});
+
+var p289 = new PokedexEntry ({name: 'Slaking', number: '289'});
+p289.save(function (err) {if (err) console.log ('Error attempting to save ' + p289.name)});
+
+var p290 = new PokedexEntry ({name: 'Nincada', number: '290'});
+p290.save(function (err) {if (err) console.log ('Error attempting to save ' + p290.name)});
+
+var p291 = new PokedexEntry ({name: 'Ninjask', number: '291'});
+p291.save(function (err) {if (err) console.log ('Error attempting to save ' + p291.name)});
+
+var p292 = new PokedexEntry ({name: 'Shedinja', number: '292'});
+p292.save(function (err) {if (err) console.log ('Error attempting to save ' + p292.name)});
+
+var p293 = new PokedexEntry ({name: 'Whismur', number: '293'});
+p293.save(function (err) {if (err) console.log ('Error attempting to save ' + p293.name)});
+
+var p294 = new PokedexEntry ({name: 'Loudred', number: '294'});
+p294.save(function (err) {if (err) console.log ('Error attempting to save ' + p294.name)});
+
+var p295 = new PokedexEntry ({name: 'Exploud', number: '295'});
+p295.save(function (err) {if (err) console.log ('Error attempting to save ' + p295.name)});
+
+var p296 = new PokedexEntry ({name: 'Makuhita', number: '296'});
+p296.save(function (err) {if (err) console.log ('Error attempting to save ' + p296.name)});
+
+var p297 = new PokedexEntry ({name: 'Hariyama', number: '297'});
+p297.save(function (err) {if (err) console.log ('Error attempting to save ' + p297.name)});
+
+var p298 = new PokedexEntry ({name: 'Azurill', number: '298'});
+p298.save(function (err) {if (err) console.log ('Error attempting to save ' + p298.name)});
+
+var p299 = new PokedexEntry ({name: 'Nosepass', number: '299'});
+p299.save(function (err) {if (err) console.log ('Error attempting to save ' + p299.name)});
+
+var p300 = new PokedexEntry ({name: 'Skitty', number: '300'});
+p300.save(function (err) {if (err) console.log ('Error attempting to save ' + p300.name)});
+
+var p301 = new PokedexEntry ({name: 'Delcatty', number: '301'});
+p301.save(function (err) {if (err) console.log ('Error attempting to save ' + p301.name)});
+
+var p302 = new PokedexEntry ({name: 'Sableye', number: '302'});
+p302.save(function (err) {if (err) console.log ('Error attempting to save ' + p302.name)});
+
+var p303 = new PokedexEntry ({name: 'Mawile', number: '303'});
+p303.save(function (err) {if (err) console.log ('Error attempting to save ' + p303.name)});
+
+var p304 = new PokedexEntry ({name: 'Aron', number: '304'});
+p304.save(function (err) {if (err) console.log ('Error attempting to save ' + p304.name)});
+
+var p305 = new PokedexEntry ({name: 'Lairon', number: '305'});
+p305.save(function (err) {if (err) console.log ('Error attempting to save ' + p305.name)});
+
+var p306 = new PokedexEntry ({name: 'Aggron', number: '306'});
+p306.save(function (err) {if (err) console.log ('Error attempting to save ' + p306.name)});
+
+var p307 = new PokedexEntry ({name: 'Meditite', number: '307'});
+p307.save(function (err) {if (err) console.log ('Error attempting to save ' + p307.name)});
+
+var p308 = new PokedexEntry ({name: 'Medicham', number: '308'});
+p308.save(function (err) {if (err) console.log ('Error attempting to save ' + p308.name)});
+
+var p309 = new PokedexEntry ({name: 'Electrike', number: '309'});
+p309.save(function (err) {if (err) console.log ('Error attempting to save ' + p309.name)});
+
+var p310 = new PokedexEntry ({name: 'Manectric', number: '310'});
+p310.save(function (err) {if (err) console.log ('Error attempting to save ' + p310.name)});
+
+var p311 = new PokedexEntry ({name: 'Plusle', number: '311'});
+p311.save(function (err) {if (err) console.log ('Error attempting to save ' + p311.name)});
+
+var p312 = new PokedexEntry ({name: 'Minun', number: '312'});
+p312.save(function (err) {if (err) console.log ('Error attempting to save ' + p312.name)});
+
+var p313 = new PokedexEntry ({name: 'Volbeat', number: '313'});
+p313.save(function (err) {if (err) console.log ('Error attempting to save ' + p313.name)});
+
+var p314 = new PokedexEntry ({name: 'Illumise', number: '314'});
+p314.save(function (err) {if (err) console.log ('Error attempting to save ' + p314.name)});
+
+var p315 = new PokedexEntry ({name: 'Roselia', number: '315'});
+p315.save(function (err) {if (err) console.log ('Error attempting to save ' + p315.name)});
+
+var p316 = new PokedexEntry ({name: 'Gulpin', number: '316'});
+p316.save(function (err) {if (err) console.log ('Error attempting to save ' + p316.name)});
+
+var p317 = new PokedexEntry ({name: 'Swalot', number: '317'});
+p317.save(function (err) {if (err) console.log ('Error attempting to save ' + p317.name)});
+
+var p318 = new PokedexEntry ({name: 'Carvanha', number: '318'});
+p318.save(function (err) {if (err) console.log ('Error attempting to save ' + p318.name)});
+
+var p319 = new PokedexEntry ({name: 'Sharpedo', number: '319'});
+p319.save(function (err) {if (err) console.log ('Error attempting to save ' + p319.name)});
+
+var p320 = new PokedexEntry ({name: 'Wailmer', number: '320'});
+p320.save(function (err) {if (err) console.log ('Error attempting to save ' + p320.name)});
+
+var p321 = new PokedexEntry ({name: 'Wailord', number: '321'});
+p321.save(function (err) {if (err) console.log ('Error attempting to save ' + p321.name)});
+
+var p322 = new PokedexEntry ({name: 'Numel', number: '322'});
+p322.save(function (err) {if (err) console.log ('Error attempting to save ' + p322.name)});
+
+var p323 = new PokedexEntry ({name: 'Camerupt', number: '323'});
+p323.save(function (err) {if (err) console.log ('Error attempting to save ' + p323.name)});
+
+var p324 = new PokedexEntry ({name: 'Torkoal', number: '324'});
+p324.save(function (err) {if (err) console.log ('Error attempting to save ' + p324.name)});
+
+var p325 = new PokedexEntry ({name: 'Spoink', number: '325'});
+p325.save(function (err) {if (err) console.log ('Error attempting to save ' + p325.name)});
+
+var p326 = new PokedexEntry ({name: 'Grumpig', number: '326'});
+p326.save(function (err) {if (err) console.log ('Error attempting to save ' + p326.name)});
+
+var p327 = new PokedexEntry ({name: 'Spinda', number: '327'});
+p327.save(function (err) {if (err) console.log ('Error attempting to save ' + p327.name)});
+
+var p328 = new PokedexEntry ({name: 'Trapinch', number: '328'});
+p328.save(function (err) {if (err) console.log ('Error attempting to save ' + p328.name)});
+
+var p329 = new PokedexEntry ({name: 'Vibrava', number: '329'});
+p329.save(function (err) {if (err) console.log ('Error attempting to save ' + p329.name)});
+
+var p330 = new PokedexEntry ({name: 'Flygon', number: '330'});
+p330.save(function (err) {if (err) console.log ('Error attempting to save ' + p330.name)});
+
+var p331 = new PokedexEntry ({name: 'Cacnea', number: '331'});
+p331.save(function (err) {if (err) console.log ('Error attempting to save ' + p331.name)});
+
+var p332 = new PokedexEntry ({name: 'Cacturne', number: '332'});
+p332.save(function (err) {if (err) console.log ('Error attempting to save ' + p332.name)});
+
+var p333 = new PokedexEntry ({name: 'Swablu', number: '333'});
+p333.save(function (err) {if (err) console.log ('Error attempting to save ' + p333.name)});
+
+var p334 = new PokedexEntry ({name: 'Altaria', number: '334'});
+p334.save(function (err) {if (err) console.log ('Error attempting to save ' + p334.name)});
+
+var p335 = new PokedexEntry ({name: 'Zangoose', number: '335'});
+p335.save(function (err) {if (err) console.log ('Error attempting to save ' + p335.name)});
+
+var p336 = new PokedexEntry ({name: 'Seviper', number: '336'});
+p336.save(function (err) {if (err) console.log ('Error attempting to save ' + p336.name)});
+
+var p337 = new PokedexEntry ({name: 'Lunatone', number: '337'});
+p337.save(function (err) {if (err) console.log ('Error attempting to save ' + p337.name)});
+
+var p338 = new PokedexEntry ({name: 'Solrock', number: '338'});
+p338.save(function (err) {if (err) console.log ('Error attempting to save ' + p338.name)});
+
+var p339 = new PokedexEntry ({name: 'Barboach', number: '339'});
+p339.save(function (err) {if (err) console.log ('Error attempting to save ' + p339.name)});
+
+var p340 = new PokedexEntry ({name: 'Whiscash', number: '340'});
+p340.save(function (err) {if (err) console.log ('Error attempting to save ' + p340.name)});
+
+var p341 = new PokedexEntry ({name: 'Corphish', number: '341'});
+p341.save(function (err) {if (err) console.log ('Error attempting to save ' + p341.name)});
+
+var p342 = new PokedexEntry ({name: 'Crawdaunt', number: '342'});
+p342.save(function (err) {if (err) console.log ('Error attempting to save ' + p342.name)});
+
+var p343 = new PokedexEntry ({name: 'Baltoy', number: '343'});
+p343.save(function (err) {if (err) console.log ('Error attempting to save ' + p343.name)});
+
+var p344 = new PokedexEntry ({name: 'Claydol', number: '344'});
+p344.save(function (err) {if (err) console.log ('Error attempting to save ' + p344.name)});
+
+var p345 = new PokedexEntry ({name: 'Lileep', number: '345'});
+p345.save(function (err) {if (err) console.log ('Error attempting to save ' + p345.name)});
+
+var p346 = new PokedexEntry ({name: 'Cradily', number: '346'});
+p346.save(function (err) {if (err) console.log ('Error attempting to save ' + p346.name)});
+
+var p347 = new PokedexEntry ({name: 'Anorith', number: '347'});
+p347.save(function (err) {if (err) console.log ('Error attempting to save ' + p347.name)});
+
+var p348 = new PokedexEntry ({name: 'Armaldo', number: '348'});
+p348.save(function (err) {if (err) console.log ('Error attempting to save ' + p348.name)});
+
+var p349 = new PokedexEntry ({name: 'Feebas', number: '349'});
+p349.save(function (err) {if (err) console.log ('Error attempting to save ' + p349.name)});
+
+var p350 = new PokedexEntry ({name: 'Milotic', number: '350'});
+p350.save(function (err) {if (err) console.log ('Error attempting to save ' + p350.name)});
+
+var p351 = new PokedexEntry ({name: 'Castform', number: '351'});
+p351.save(function (err) {if (err) console.log ('Error attempting to save ' + p351.name)});
+
+var p352 = new PokedexEntry ({name: 'Kecleon', number: '352'});
+p352.save(function (err) {if (err) console.log ('Error attempting to save ' + p352.name)});
+
+var p353 = new PokedexEntry ({name: 'Shuppet', number: '353'});
+p353.save(function (err) {if (err) console.log ('Error attempting to save ' + p353.name)});
+
+var p354 = new PokedexEntry ({name: 'Banette', number: '354'});
+p354.save(function (err) {if (err) console.log ('Error attempting to save ' + p354.name)});
+
+var p355 = new PokedexEntry ({name: 'Duskull', number: '355'});
+p355.save(function (err) {if (err) console.log ('Error attempting to save ' + p355.name)});
+
+var p356 = new PokedexEntry ({name: 'Dusclops', number: '356'});
+p356.save(function (err) {if (err) console.log ('Error attempting to save ' + p356.name)});
+
+var p357 = new PokedexEntry ({name: 'Tropius', number: '357'});
+p357.save(function (err) {if (err) console.log ('Error attempting to save ' + p357.name)});
+
+var p358 = new PokedexEntry ({name: 'Chimecho', number: '358'});
+p358.save(function (err) {if (err) console.log ('Error attempting to save ' + p358.name)});
+
+var p359 = new PokedexEntry ({name: 'Absol', number: '359'});
+p359.save(function (err) {if (err) console.log ('Error attempting to save ' + p359.name)});
+
+var p360 = new PokedexEntry ({name: 'Wynaut', number: '360'});
+p360.save(function (err) {if (err) console.log ('Error attempting to save ' + p360.name)});
+
+var p361 = new PokedexEntry ({name: 'Snorunt', number: '361'});
+p361.save(function (err) {if (err) console.log ('Error attempting to save ' + p361.name)});
+
+var p362 = new PokedexEntry ({name: 'Glalie', number: '362'});
+p362.save(function (err) {if (err) console.log ('Error attempting to save ' + p362.name)});
+
+var p363 = new PokedexEntry ({name: 'Spheal', number: '363'});
+p363.save(function (err) {if (err) console.log ('Error attempting to save ' + p363.name)});
+
+var p364 = new PokedexEntry ({name: 'Sealeo', number: '364'});
+p364.save(function (err) {if (err) console.log ('Error attempting to save ' + p364.name)});
+
+var p365 = new PokedexEntry ({name: 'Walrein', number: '365'});
+p365.save(function (err) {if (err) console.log ('Error attempting to save ' + p365.name)});
+
+var p366 = new PokedexEntry ({name: 'Clamperl', number: '366'});
+p366.save(function (err) {if (err) console.log ('Error attempting to save ' + p366.name)});
+
+var p367 = new PokedexEntry ({name: 'Huntail', number: '367'});
+p367.save(function (err) {if (err) console.log ('Error attempting to save ' + p367.name)});
+
+var p368 = new PokedexEntry ({name: 'Gorebyss', number: '368'});
+p368.save(function (err) {if (err) console.log ('Error attempting to save ' + p368.name)});
+
+var p369 = new PokedexEntry ({name: 'Relicanth', number: '369'});
+p369.save(function (err) {if (err) console.log ('Error attempting to save ' + p369.name)});
+
+var p370 = new PokedexEntry ({name: 'Luvdisc', number: '370'});
+p370.save(function (err) {if (err) console.log ('Error attempting to save ' + p370.name)});
+
+var p371 = new PokedexEntry ({name: 'Bagon', number: '371'});
+p371.save(function (err) {if (err) console.log ('Error attempting to save ' + p371.name)});
+
+var p372 = new PokedexEntry ({name: 'Shelgon', number: '372'});
+p372.save(function (err) {if (err) console.log ('Error attempting to save ' + p372.name)});
+
+var p373 = new PokedexEntry ({name: 'Salamence', number: '373'});
+p373.save(function (err) {if (err) console.log ('Error attempting to save ' + p373.name)});
+
+var p374 = new PokedexEntry ({name: 'Beldum', number: '374'});
+p374.save(function (err) {if (err) console.log ('Error attempting to save ' + p374.name)});
+
+var p375 = new PokedexEntry ({name: 'Metang', number: '375'});
+p375.save(function (err) {if (err) console.log ('Error attempting to save ' + p375.name)});
+
+var p376 = new PokedexEntry ({name: 'Metagross', number: '376'});
+p376.save(function (err) {if (err) console.log ('Error attempting to save ' + p376.name)});
+
+var p377 = new PokedexEntry ({name: 'Regirock', number: '377'});
+p377.save(function (err) {if (err) console.log ('Error attempting to save ' + p377.name)});
+
+var p378 = new PokedexEntry ({name: 'Regice', number: '378'});
+p378.save(function (err) {if (err) console.log ('Error attempting to save ' + p378.name)});
+
+var p379 = new PokedexEntry ({name: 'Registeel', number: '379'});
+p379.save(function (err) {if (err) console.log ('Error attempting to save ' + p379.name)});
+
+var p380 = new PokedexEntry ({name: 'Latias', number: '380'});
+p380.save(function (err) {if (err) console.log ('Error attempting to save ' + p380.name)});
+
+var p381 = new PokedexEntry ({name: 'Latios', number: '381'});
+p381.save(function (err) {if (err) console.log ('Error attempting to save ' + p381.name)});
+
+var p382 = new PokedexEntry ({name: 'Kyogre', number: '382'});
+p382.save(function (err) {if (err) console.log ('Error attempting to save ' + p382.name)});
+
+var p383 = new PokedexEntry ({name: 'Groudon', number: '383'});
+p383.save(function (err) {if (err) console.log ('Error attempting to save ' + p383.name)});
+
+var p384 = new PokedexEntry ({name: 'Rayquaza', number: '384'});
+p384.save(function (err) {if (err) console.log ('Error attempting to save ' + p384.name)});
+
+var p385 = new PokedexEntry ({name: 'Jirachi', number: '385'});
+p385.save(function (err) {if (err) console.log ('Error attempting to save ' + p385.name)});
+
+var p386 = new PokedexEntry ({name: 'Deoxys', number: '386'});
+p386.save(function (err) {if (err) console.log ('Error attempting to save ' + p386.name)});
+
+var p387 = new PokedexEntry ({name: 'Turtwig', number: '387'});
+p387.save(function (err) {if (err) console.log ('Error attempting to save ' + p387.name)});
+
+var p388 = new PokedexEntry ({name: 'Grotle', number: '388'});
+p388.save(function (err) {if (err) console.log ('Error attempting to save ' + p388.name)});
+
+var p389 = new PokedexEntry ({name: 'Torterra', number: '389'});
+p389.save(function (err) {if (err) console.log ('Error attempting to save ' + p389.name)});
+
+var p390 = new PokedexEntry ({name: 'Chimchar', number: '390'});
+p390.save(function (err) {if (err) console.log ('Error attempting to save ' + p390.name)});
+
+var p391 = new PokedexEntry ({name: 'Monferno', number: '391'});
+p391.save(function (err) {if (err) console.log ('Error attempting to save ' + p391.name)});
+
+var p392 = new PokedexEntry ({name: 'Infernape', number: '392'});
+p392.save(function (err) {if (err) console.log ('Error attempting to save ' + p392.name)});
+
+var p393 = new PokedexEntry ({name: 'Piplup', number: '393'});
+p393.save(function (err) {if (err) console.log ('Error attempting to save ' + p393.name)});
+
+var p394 = new PokedexEntry ({name: 'Prinplup', number: '394'});
+p394.save(function (err) {if (err) console.log ('Error attempting to save ' + p394.name)});
+
+var p395 = new PokedexEntry ({name: 'Empoleon', number: '395'});
+p395.save(function (err) {if (err) console.log ('Error attempting to save ' + p395.name)});
+
+var p396 = new PokedexEntry ({name: 'Starly', number: '396'});
+p396.save(function (err) {if (err) console.log ('Error attempting to save ' + p396.name)});
+
+var p397 = new PokedexEntry ({name: 'Staravia', number: '397'});
+p397.save(function (err) {if (err) console.log ('Error attempting to save ' + p397.name)});
+
+var p398 = new PokedexEntry ({name: 'Staraptor', number: '398'});
+p398.save(function (err) {if (err) console.log ('Error attempting to save ' + p398.name)});
+
+var p399 = new PokedexEntry ({name: 'Bidoof', number: '399'});
+p399.save(function (err) {if (err) console.log ('Error attempting to save ' + p399.name)});
+
+var p400 = new PokedexEntry ({name: 'Bibarel', number: '400'});
+p400.save(function (err) {if (err) console.log ('Error attempting to save ' + p400.name)});
+
+var p401 = new PokedexEntry ({name: 'Kricketot', number: '401'});
+p401.save(function (err) {if (err) console.log ('Error attempting to save ' + p401.name)});
+
+var p402 = new PokedexEntry ({name: 'Kricketune', number: '402'});
+p402.save(function (err) {if (err) console.log ('Error attempting to save ' + p402.name)});
+
+var p403 = new PokedexEntry ({name: 'Shinx', number: '403'});
+p403.save(function (err) {if (err) console.log ('Error attempting to save ' + p403.name)});
+
+var p404 = new PokedexEntry ({name: 'Luxio', number: '404'});
+p404.save(function (err) {if (err) console.log ('Error attempting to save ' + p404.name)});
+
+var p405 = new PokedexEntry ({name: 'Luxray', number: '405'});
+p405.save(function (err) {if (err) console.log ('Error attempting to save ' + p405.name)});
+
+var p406 = new PokedexEntry ({name: 'Budew', number: '406'});
+p406.save(function (err) {if (err) console.log ('Error attempting to save ' + p406.name)});
+
+var p407 = new PokedexEntry ({name: 'Roserade', number: '407'});
+p407.save(function (err) {if (err) console.log ('Error attempting to save ' + p407.name)});
+
+var p408 = new PokedexEntry ({name: 'Cranidos', number: '408'});
+p408.save(function (err) {if (err) console.log ('Error attempting to save ' + p408.name)});
+
+var p409 = new PokedexEntry ({name: 'Rampardos', number: '409'});
+p409.save(function (err) {if (err) console.log ('Error attempting to save ' + p409.name)});
+
+var p410 = new PokedexEntry ({name: 'Shieldon', number: '410'});
+p410.save(function (err) {if (err) console.log ('Error attempting to save ' + p410.name)});
+
+var p411 = new PokedexEntry ({name: 'Bastiodon', number: '411'});
+p411.save(function (err) {if (err) console.log ('Error attempting to save ' + p411.name)});
+
+var p412 = new PokedexEntry ({name: 'Burmy', number: '412'});
+p412.save(function (err) {if (err) console.log ('Error attempting to save ' + p412.name)});
+
+var p413 = new PokedexEntry ({name: 'Wormadam', number: '413'});
+p413.save(function (err) {if (err) console.log ('Error attempting to save ' + p413.name)});
+
+var p414 = new PokedexEntry ({name: 'Mothim', number: '414'});
+p414.save(function (err) {if (err) console.log ('Error attempting to save ' + p414.name)});
+
+var p415 = new PokedexEntry ({name: 'Combee', number: '415'});
+p415.save(function (err) {if (err) console.log ('Error attempting to save ' + p415.name)});
+
+var p416 = new PokedexEntry ({name: 'Vespiquen', number: '416'});
+p416.save(function (err) {if (err) console.log ('Error attempting to save ' + p416.name)});
+
+var p417 = new PokedexEntry ({name: 'Pachirisu', number: '417'});
+p417.save(function (err) {if (err) console.log ('Error attempting to save ' + p417.name)});
+
+var p418 = new PokedexEntry ({name: 'Buizel', number: '418'});
+p418.save(function (err) {if (err) console.log ('Error attempting to save ' + p418.name)});
+
+var p419 = new PokedexEntry ({name: 'Floatzel', number: '419'});
+p419.save(function (err) {if (err) console.log ('Error attempting to save ' + p419.name)});
+
+var p420 = new PokedexEntry ({name: 'Cherubi', number: '420'});
+p420.save(function (err) {if (err) console.log ('Error attempting to save ' + p420.name)});
+
+var p421 = new PokedexEntry ({name: 'Cherrim', number: '421'});
+p421.save(function (err) {if (err) console.log ('Error attempting to save ' + p421.name)});
+
+var p422 = new PokedexEntry ({name: 'Shellos', number: '422'});
+p422.save(function (err) {if (err) console.log ('Error attempting to save ' + p422.name)});
+
+var p423 = new PokedexEntry ({name: 'Gastrodon', number: '423'});
+p423.save(function (err) {if (err) console.log ('Error attempting to save ' + p423.name)});
+
+var p424 = new PokedexEntry ({name: 'Ambipom', number: '424'});
+p424.save(function (err) {if (err) console.log ('Error attempting to save ' + p424.name)});
+
+var p425 = new PokedexEntry ({name: 'Drifloon', number: '425'});
+p425.save(function (err) {if (err) console.log ('Error attempting to save ' + p425.name)});
+
+var p426 = new PokedexEntry ({name: 'Drifblim', number: '426'});
+p426.save(function (err) {if (err) console.log ('Error attempting to save ' + p426.name)});
+
+var p427 = new PokedexEntry ({name: 'Buneary', number: '427'});
+p427.save(function (err) {if (err) console.log ('Error attempting to save ' + p427.name)});
+
+var p428 = new PokedexEntry ({name: 'Lopunny', number: '428'});
+p428.save(function (err) {if (err) console.log ('Error attempting to save ' + p428.name)});
+
+var p429 = new PokedexEntry ({name: 'Mismagius', number: '429'});
+p429.save(function (err) {if (err) console.log ('Error attempting to save ' + p429.name)});
+
+var p430 = new PokedexEntry ({name: 'Honchkrow', number: '430'});
+p430.save(function (err) {if (err) console.log ('Error attempting to save ' + p430.name)});
+
+var p431 = new PokedexEntry ({name: 'Glameow', number: '431'});
+p431.save(function (err) {if (err) console.log ('Error attempting to save ' + p431.name)});
+
+var p432 = new PokedexEntry ({name: 'Purugly', number: '432'});
+p432.save(function (err) {if (err) console.log ('Error attempting to save ' + p432.name)});
+
+var p433 = new PokedexEntry ({name: 'Chingling', number: '433'});
+p433.save(function (err) {if (err) console.log ('Error attempting to save ' + p433.name)});
+
+var p434 = new PokedexEntry ({name: 'Stunky', number: '434'});
+p434.save(function (err) {if (err) console.log ('Error attempting to save ' + p434.name)});
+
+var p435 = new PokedexEntry ({name: 'Skuntank', number: '435'});
+p435.save(function (err) {if (err) console.log ('Error attempting to save ' + p435.name)});
+
+var p436 = new PokedexEntry ({name: 'Bronzor', number: '436'});
+p436.save(function (err) {if (err) console.log ('Error attempting to save ' + p436.name)});
+
+var p437 = new PokedexEntry ({name: 'Bronzong', number: '437'});
+p437.save(function (err) {if (err) console.log ('Error attempting to save ' + p437.name)});
+
+var p438 = new PokedexEntry ({name: 'Bonsly', number: '438'});
+p438.save(function (err) {if (err) console.log ('Error attempting to save ' + p438.name)});
+
+var p439 = new PokedexEntry ({name: 'Mime Jr.', number: '439'});
+p439.save(function (err) {if (err) console.log ('Error attempting to save ' + p439.name)});
+
+var p440 = new PokedexEntry ({name: 'Happiny', number: '440'});
+p440.save(function (err) {if (err) console.log ('Error attempting to save ' + p440.name)});
+
+var p441 = new PokedexEntry ({name: 'Chatot', number: '441'});
+p441.save(function (err) {if (err) console.log ('Error attempting to save ' + p441.name)});
+
+var p442 = new PokedexEntry ({name: 'Spiritomb', number: '442'});
+p442.save(function (err) {if (err) console.log ('Error attempting to save ' + p442.name)});
+
+var p443 = new PokedexEntry ({name: 'Gible', number: '443'});
+p443.save(function (err) {if (err) console.log ('Error attempting to save ' + p443.name)});
+
+var p444 = new PokedexEntry ({name: 'Gabite', number: '444'});
+p444.save(function (err) {if (err) console.log ('Error attempting to save ' + p444.name)});
+
+var p445 = new PokedexEntry ({name: 'Garchomp', number: '445'});
+p445.save(function (err) {if (err) console.log ('Error attempting to save ' + p445.name)});
+
+var p446 = new PokedexEntry ({name: 'Munchlax', number: '446'});
+p446.save(function (err) {if (err) console.log ('Error attempting to save ' + p446.name)});
+
+var p447 = new PokedexEntry ({name: 'Riolu', number: '447'});
+p447.save(function (err) {if (err) console.log ('Error attempting to save ' + p447.name)});
+
+var p448 = new PokedexEntry ({name: 'Lucario', number: '448'});
+p448.save(function (err) {if (err) console.log ('Error attempting to save ' + p448.name)});
+
+var p449 = new PokedexEntry ({name: 'Hippopotas', number: '449'});
+p449.save(function (err) {if (err) console.log ('Error attempting to save ' + p449.name)});
+
+var p450 = new PokedexEntry ({name: 'Hippowdon', number: '450'});
+p450.save(function (err) {if (err) console.log ('Error attempting to save ' + p450.name)});
+
+var p451 = new PokedexEntry ({name: 'Skorupi', number: '451'});
+p451.save(function (err) {if (err) console.log ('Error attempting to save ' + p451.name)});
+
+var p452 = new PokedexEntry ({name: 'Drapion', number: '452'});
+p452.save(function (err) {if (err) console.log ('Error attempting to save ' + p452.name)});
+
+var p453 = new PokedexEntry ({name: 'Croagunk', number: '453'});
+p453.save(function (err) {if (err) console.log ('Error attempting to save ' + p453.name)});
+
+var p454 = new PokedexEntry ({name: 'Toxicroak', number: '454'});
+p454.save(function (err) {if (err) console.log ('Error attempting to save ' + p454.name)});
+
+var p455 = new PokedexEntry ({name: 'Carnivine', number: '455'});
+p455.save(function (err) {if (err) console.log ('Error attempting to save ' + p455.name)});
+
+var p456 = new PokedexEntry ({name: 'Finneon', number: '456'});
+p456.save(function (err) {if (err) console.log ('Error attempting to save ' + p456.name)});
+
+var p457 = new PokedexEntry ({name: 'Lumineon', number: '457'});
+p457.save(function (err) {if (err) console.log ('Error attempting to save ' + p457.name)});
+
+var p458 = new PokedexEntry ({name: 'Mantyke', number: '458'});
+p458.save(function (err) {if (err) console.log ('Error attempting to save ' + p458.name)});
+
+var p459 = new PokedexEntry ({name: 'Snover', number: '459'});
+p459.save(function (err) {if (err) console.log ('Error attempting to save ' + p459.name)});
+
+var p460 = new PokedexEntry ({name: 'Abomasnow', number: '460'});
+p460.save(function (err) {if (err) console.log ('Error attempting to save ' + p460.name)});
+
+var p461 = new PokedexEntry ({name: 'Weavile', number: '461'});
+p461.save(function (err) {if (err) console.log ('Error attempting to save ' + p461.name)});
+
+var p462 = new PokedexEntry ({name: 'Magnezone', number: '462'});
+p462.save(function (err) {if (err) console.log ('Error attempting to save ' + p462.name)});
+
+var p463 = new PokedexEntry ({name: 'Lickilicky', number: '463'});
+p463.save(function (err) {if (err) console.log ('Error attempting to save ' + p463.name)});
+
+var p464 = new PokedexEntry ({name: 'Rhyperior', number: '464'});
+p464.save(function (err) {if (err) console.log ('Error attempting to save ' + p464.name)});
+
+var p465 = new PokedexEntry ({name: 'Tangrowth', number: '465'});
+p465.save(function (err) {if (err) console.log ('Error attempting to save ' + p465.name)});
+
+var p466 = new PokedexEntry ({name: 'Electivire', number: '466'});
+p466.save(function (err) {if (err) console.log ('Error attempting to save ' + p466.name)});
+
+var p467 = new PokedexEntry ({name: 'Magmortar', number: '467'});
+p467.save(function (err) {if (err) console.log ('Error attempting to save ' + p467.name)});
+
+var p468 = new PokedexEntry ({name: 'Togekiss', number: '468'});
+p468.save(function (err) {if (err) console.log ('Error attempting to save ' + p468.name)});
+
+var p469 = new PokedexEntry ({name: 'Yanmega', number: '469'});
+p469.save(function (err) {if (err) console.log ('Error attempting to save ' + p469.name)});
+
+var p470 = new PokedexEntry ({name: 'Leafeon', number: '470'});
+p470.save(function (err) {if (err) console.log ('Error attempting to save ' + p470.name)});
+
+var p471 = new PokedexEntry ({name: 'Glaceon', number: '471'});
+p471.save(function (err) {if (err) console.log ('Error attempting to save ' + p471.name)});
+
+var p472 = new PokedexEntry ({name: 'Gliscor', number: '472'});
+p472.save(function (err) {if (err) console.log ('Error attempting to save ' + p472.name)});
+
+var p473 = new PokedexEntry ({name: 'Mamoswine', number: '473'});
+p473.save(function (err) {if (err) console.log ('Error attempting to save ' + p473.name)});
+
+var p474 = new PokedexEntry ({name: 'Porygon-Z', number: '474'});
+p474.save(function (err) {if (err) console.log ('Error attempting to save ' + p474.name)});
+
+var p475 = new PokedexEntry ({name: 'Gallade', number: '475'});
+p475.save(function (err) {if (err) console.log ('Error attempting to save ' + p475.name)});
+
+var p476 = new PokedexEntry ({name: 'Probopass', number: '476'});
+p476.save(function (err) {if (err) console.log ('Error attempting to save ' + p476.name)});
+
+var p477 = new PokedexEntry ({name: 'Dusknoir', number: '477'});
+p477.save(function (err) {if (err) console.log ('Error attempting to save ' + p477.name)});
+
+var p478 = new PokedexEntry ({name: 'Froslass', number: '478'});
+p478.save(function (err) {if (err) console.log ('Error attempting to save ' + p478.name)});
+
+var p479 = new PokedexEntry ({name: 'Rotom', number: '479'});
+p479.save(function (err) {if (err) console.log ('Error attempting to save ' + p479.name)});
+
+var p480 = new PokedexEntry ({name: 'Uxie', number: '480'});
+p480.save(function (err) {if (err) console.log ('Error attempting to save ' + p480.name)});
+
+var p481 = new PokedexEntry ({name: 'Mesprit', number: '481'});
+p481.save(function (err) {if (err) console.log ('Error attempting to save ' + p481.name)});
+
+var p482 = new PokedexEntry ({name: 'Azelf', number: '482'});
+p482.save(function (err) {if (err) console.log ('Error attempting to save ' + p482.name)});
+
+var p483 = new PokedexEntry ({name: 'Dialga', number: '483'});
+p483.save(function (err) {if (err) console.log ('Error attempting to save ' + p483.name)});
+
+var p484 = new PokedexEntry ({name: 'Palkia', number: '484'});
+p484.save(function (err) {if (err) console.log ('Error attempting to save ' + p484.name)});
+
+var p485 = new PokedexEntry ({name: 'Heatran', number: '485'});
+p485.save(function (err) {if (err) console.log ('Error attempting to save ' + p485.name)});
+
+var p486 = new PokedexEntry ({name: 'Regigigas', number: '486'});
+p486.save(function (err) {if (err) console.log ('Error attempting to save ' + p486.name)});
+
+var p487 = new PokedexEntry ({name: 'Giratina', number: '487'});
+p487.save(function (err) {if (err) console.log ('Error attempting to save ' + p487.name)});
+
+var p488 = new PokedexEntry ({name: 'Cresselia', number: '488'});
+p488.save(function (err) {if (err) console.log ('Error attempting to save ' + p488.name)});
+
+var p489 = new PokedexEntry ({name: 'Phione', number: '489'});
+p489.save(function (err) {if (err) console.log ('Error attempting to save ' + p489.name)});
+
+var p490 = new PokedexEntry ({name: 'Manaphy', number: '490'});
+p490.save(function (err) {if (err) console.log ('Error attempting to save ' + p490.name)});
+
+var p491 = new PokedexEntry ({name: 'Darkrai', number: '491'});
+p491.save(function (err) {if (err) console.log ('Error attempting to save ' + p491.name)});
+
+var p492 = new PokedexEntry ({name: 'Shaymin', number: '492'});
+p492.save(function (err) {if (err) console.log ('Error attempting to save ' + p492.name)});
+
+var p493 = new PokedexEntry ({name: 'Arceus', number: '493'});
+p493.save(function (err) {if (err) console.log ('Error attempting to save ' + p493.name)});
+
+var p494 = new PokedexEntry ({name: 'Victini', number: '494'});
+p494.save(function (err) {if (err) console.log ('Error attempting to save ' + p494.name)});
+
+var p495 = new PokedexEntry ({name: 'Snivy', number: '495'});
+p495.save(function (err) {if (err) console.log ('Error attempting to save ' + p495.name)});
+
+var p496 = new PokedexEntry ({name: 'Servine', number: '496'});
+p496.save(function (err) {if (err) console.log ('Error attempting to save ' + p496.name)});
+
+var p497 = new PokedexEntry ({name: 'Serperior', number: '497'});
+p497.save(function (err) {if (err) console.log ('Error attempting to save ' + p497.name)});
+
+var p498 = new PokedexEntry ({name: 'Tepig', number: '498'});
+p498.save(function (err) {if (err) console.log ('Error attempting to save ' + p498.name)});
+
+var p499 = new PokedexEntry ({name: 'Pignite', number: '499'});
+p499.save(function (err) {if (err) console.log ('Error attempting to save ' + p499.name)});
+
+var p500 = new PokedexEntry ({name: 'Emboar', number: '500'});
+p500.save(function (err) {if (err) console.log ('Error attempting to save ' + p500.name)});
+
+var p501 = new PokedexEntry ({name: 'Oshawott', number: '501'});
+p501.save(function (err) {if (err) console.log ('Error attempting to save ' + p501.name)});
+
+var p502 = new PokedexEntry ({name: 'Dewott', number: '502'});
+p502.save(function (err) {if (err) console.log ('Error attempting to save ' + p502.name)});
+
+var p503 = new PokedexEntry ({name: 'Samurott', number: '503'});
+p503.save(function (err) {if (err) console.log ('Error attempting to save ' + p503.name)});
+
+var p504 = new PokedexEntry ({name: 'Patrat', number: '504'});
+p504.save(function (err) {if (err) console.log ('Error attempting to save ' + p504.name)});
+
+var p505 = new PokedexEntry ({name: 'Watchog', number: '505'});
+p505.save(function (err) {if (err) console.log ('Error attempting to save ' + p505.name)});
+
+var p506 = new PokedexEntry ({name: 'Lillipup', number: '506'});
+p506.save(function (err) {if (err) console.log ('Error attempting to save ' + p506.name)});
+
+var p507 = new PokedexEntry ({name: 'Herdier', number: '507'});
+p507.save(function (err) {if (err) console.log ('Error attempting to save ' + p507.name)});
+
+var p508 = new PokedexEntry ({name: 'Stoutland', number: '508'});
+p508.save(function (err) {if (err) console.log ('Error attempting to save ' + p508.name)});
+
+var p509 = new PokedexEntry ({name: 'Purrloin', number: '509'});
+p509.save(function (err) {if (err) console.log ('Error attempting to save ' + p509.name)});
+
+var p510 = new PokedexEntry ({name: 'Liepard', number: '510'});
+p510.save(function (err) {if (err) console.log ('Error attempting to save ' + p510.name)});
+
+var p511 = new PokedexEntry ({name: 'Pansage', number: '511'});
+p511.save(function (err) {if (err) console.log ('Error attempting to save ' + p511.name)});
+
+var p512 = new PokedexEntry ({name: 'Simisage', number: '512'});
+p512.save(function (err) {if (err) console.log ('Error attempting to save ' + p512.name)});
+
+var p513 = new PokedexEntry ({name: 'Pansear', number: '513'});
+p513.save(function (err) {if (err) console.log ('Error attempting to save ' + p513.name)});
+
+var p514 = new PokedexEntry ({name: 'Simisear', number: '514'});
+p514.save(function (err) {if (err) console.log ('Error attempting to save ' + p514.name)});
+
+var p515 = new PokedexEntry ({name: 'Panpour', number: '515'});
+p515.save(function (err) {if (err) console.log ('Error attempting to save ' + p515.name)});
+
+var p516 = new PokedexEntry ({name: 'Simipour', number: '516'});
+p516.save(function (err) {if (err) console.log ('Error attempting to save ' + p516.name)});
+
+var p517 = new PokedexEntry ({name: 'Munna', number: '517'});
+p517.save(function (err) {if (err) console.log ('Error attempting to save ' + p517.name)});
+
+var p518 = new PokedexEntry ({name: 'Musharna', number: '518'});
+p518.save(function (err) {if (err) console.log ('Error attempting to save ' + p518.name)});
+
+var p519 = new PokedexEntry ({name: 'Pidove', number: '519'});
+p519.save(function (err) {if (err) console.log ('Error attempting to save ' + p519.name)});
+
+var p520 = new PokedexEntry ({name: 'Tranquill', number: '520'});
+p520.save(function (err) {if (err) console.log ('Error attempting to save ' + p520.name)});
+
+var p521 = new PokedexEntry ({name: 'Unfezant', number: '521'});
+p521.save(function (err) {if (err) console.log ('Error attempting to save ' + p521.name)});
+
+var p522 = new PokedexEntry ({name: 'Blitzle', number: '522'});
+p522.save(function (err) {if (err) console.log ('Error attempting to save ' + p522.name)});
+
+var p523 = new PokedexEntry ({name: 'Zebstrika', number: '523'});
+p523.save(function (err) {if (err) console.log ('Error attempting to save ' + p523.name)});
+
+var p524 = new PokedexEntry ({name: 'Roggenrola', number: '524'});
+p524.save(function (err) {if (err) console.log ('Error attempting to save ' + p524.name)});
+
+var p525 = new PokedexEntry ({name: 'Boldore', number: '525'});
+p525.save(function (err) {if (err) console.log ('Error attempting to save ' + p525.name)});
+
+var p526 = new PokedexEntry ({name: 'Gigalith', number: '526'});
+p526.save(function (err) {if (err) console.log ('Error attempting to save ' + p526.name)});
+
+var p527 = new PokedexEntry ({name: 'Woobat', number: '527'});
+p527.save(function (err) {if (err) console.log ('Error attempting to save ' + p527.name)});
+
+var p528 = new PokedexEntry ({name: 'Swoobat', number: '528'});
+p528.save(function (err) {if (err) console.log ('Error attempting to save ' + p528.name)});
+
+var p529 = new PokedexEntry ({name: 'Drilbur', number: '529'});
+p529.save(function (err) {if (err) console.log ('Error attempting to save ' + p529.name)});
+
+var p530 = new PokedexEntry ({name: 'Excadrill', number: '530'});
+p530.save(function (err) {if (err) console.log ('Error attempting to save ' + p530.name)});
+
+var p531 = new PokedexEntry ({name: 'Audino', number: '531'});
+p531.save(function (err) {if (err) console.log ('Error attempting to save ' + p531.name)});
+
+var p532 = new PokedexEntry ({name: 'Timburr', number: '532'});
+p532.save(function (err) {if (err) console.log ('Error attempting to save ' + p532.name)});
+
+var p533 = new PokedexEntry ({name: 'Gurdurr', number: '533'});
+p533.save(function (err) {if (err) console.log ('Error attempting to save ' + p533.name)});
+
+var p534 = new PokedexEntry ({name: 'Conkeldurr', number: '534'});
+p534.save(function (err) {if (err) console.log ('Error attempting to save ' + p534.name)});
+
+var p535 = new PokedexEntry ({name: 'Tympole', number: '535'});
+p535.save(function (err) {if (err) console.log ('Error attempting to save ' + p535.name)});
+
+var p536 = new PokedexEntry ({name: 'Palpitoad', number: '536'});
+p536.save(function (err) {if (err) console.log ('Error attempting to save ' + p536.name)});
+
+var p537 = new PokedexEntry ({name: 'Seismitoad', number: '537'});
+p537.save(function (err) {if (err) console.log ('Error attempting to save ' + p537.name)});
+
+var p538 = new PokedexEntry ({name: 'Throh', number: '538'});
+p538.save(function (err) {if (err) console.log ('Error attempting to save ' + p538.name)});
+
+var p539 = new PokedexEntry ({name: 'Sawk', number: '539'});
+p539.save(function (err) {if (err) console.log ('Error attempting to save ' + p539.name)});
+
+var p540 = new PokedexEntry ({name: 'Sewaddle', number: '540'});
+p540.save(function (err) {if (err) console.log ('Error attempting to save ' + p540.name)});
+
+var p541 = new PokedexEntry ({name: 'Swadloon', number: '541'});
+p541.save(function (err) {if (err) console.log ('Error attempting to save ' + p541.name)});
+
+var p542 = new PokedexEntry ({name: 'Leavanny', number: '542'});
+p542.save(function (err) {if (err) console.log ('Error attempting to save ' + p542.name)});
+
+var p543 = new PokedexEntry ({name: 'Venipede', number: '543'});
+p543.save(function (err) {if (err) console.log ('Error attempting to save ' + p543.name)});
+
+var p544 = new PokedexEntry ({name: 'Whirlipede', number: '544'});
+p544.save(function (err) {if (err) console.log ('Error attempting to save ' + p544.name)});
+
+var p545 = new PokedexEntry ({name: 'Scolipede', number: '545'});
+p545.save(function (err) {if (err) console.log ('Error attempting to save ' + p545.name)});
+
+var p546 = new PokedexEntry ({name: 'Cottonee', number: '546'});
+p546.save(function (err) {if (err) console.log ('Error attempting to save ' + p546.name)});
+
+var p547 = new PokedexEntry ({name: 'Whimsicott', number: '547'});
+p547.save(function (err) {if (err) console.log ('Error attempting to save ' + p547.name)});
+
+var p548 = new PokedexEntry ({name: 'Petilil', number: '548'});
+p548.save(function (err) {if (err) console.log ('Error attempting to save ' + p548.name)});
+
+var p549 = new PokedexEntry ({name: 'Lilligant', number: '549'});
+p549.save(function (err) {if (err) console.log ('Error attempting to save ' + p549.name)});
+
+var p550 = new PokedexEntry ({name: 'Basculin', number: '550'});
+p550.save(function (err) {if (err) console.log ('Error attempting to save ' + p550.name)});
+
+var p551 = new PokedexEntry ({name: 'Sandile', number: '551'});
+p551.save(function (err) {if (err) console.log ('Error attempting to save ' + p551.name)});
+
+var p552 = new PokedexEntry ({name: 'Krokorok', number: '552'});
+p552.save(function (err) {if (err) console.log ('Error attempting to save ' + p552.name)});
+
+var p553 = new PokedexEntry ({name: 'Krookodile', number: '553'});
+p553.save(function (err) {if (err) console.log ('Error attempting to save ' + p553.name)});
+
+var p554 = new PokedexEntry ({name: 'Darumaka', number: '554'});
+p554.save(function (err) {if (err) console.log ('Error attempting to save ' + p554.name)});
+
+var p555 = new PokedexEntry ({name: 'Darmanitan', number: '555'});
+p555.save(function (err) {if (err) console.log ('Error attempting to save ' + p555.name)});
+
+var p556 = new PokedexEntry ({name: 'Maractus', number: '556'});
+p556.save(function (err) {if (err) console.log ('Error attempting to save ' + p556.name)});
+
+var p557 = new PokedexEntry ({name: 'Dwebble', number: '557'});
+p557.save(function (err) {if (err) console.log ('Error attempting to save ' + p557.name)});
+
+var p558 = new PokedexEntry ({name: 'Crustle', number: '558'});
+p558.save(function (err) {if (err) console.log ('Error attempting to save ' + p558.name)});
+
+var p559 = new PokedexEntry ({name: 'Scraggy', number: '559'});
+p559.save(function (err) {if (err) console.log ('Error attempting to save ' + p559.name)});
+
+var p560 = new PokedexEntry ({name: 'Scrafty', number: '560'});
+p560.save(function (err) {if (err) console.log ('Error attempting to save ' + p560.name)});
+
+var p561 = new PokedexEntry ({name: 'Sigilyph', number: '561'});
+p561.save(function (err) {if (err) console.log ('Error attempting to save ' + p561.name)});
+
+var p562 = new PokedexEntry ({name: 'Yamask', number: '562'});
+p562.save(function (err) {if (err) console.log ('Error attempting to save ' + p562.name)});
+
+var p563 = new PokedexEntry ({name: 'Cofagrigus', number: '563'});
+p563.save(function (err) {if (err) console.log ('Error attempting to save ' + p563.name)});
+
+var p564 = new PokedexEntry ({name: 'Tirtouga', number: '564'});
+p564.save(function (err) {if (err) console.log ('Error attempting to save ' + p564.name)});
+
+var p565 = new PokedexEntry ({name: 'Carracosta', number: '565'});
+p565.save(function (err) {if (err) console.log ('Error attempting to save ' + p565.name)});
+
+var p566 = new PokedexEntry ({name: 'Archen', number: '566'});
+p566.save(function (err) {if (err) console.log ('Error attempting to save ' + p566.name)});
+
+var p567 = new PokedexEntry ({name: 'Archeops', number: '567'});
+p567.save(function (err) {if (err) console.log ('Error attempting to save ' + p567.name)});
+
+var p568 = new PokedexEntry ({name: 'Trubbish', number: '568'});
+p568.save(function (err) {if (err) console.log ('Error attempting to save ' + p568.name)});
+
+var p569 = new PokedexEntry ({name: 'Garbodor', number: '569'});
+p569.save(function (err) {if (err) console.log ('Error attempting to save ' + p569.name)});
+
+var p570 = new PokedexEntry ({name: 'Zorua', number: '570'});
+p570.save(function (err) {if (err) console.log ('Error attempting to save ' + p570.name)});
+
+var p571 = new PokedexEntry ({name: 'Zoroark', number: '571'});
+p571.save(function (err) {if (err) console.log ('Error attempting to save ' + p571.name)});
+
+var p572 = new PokedexEntry ({name: 'Minccino', number: '572'});
+p572.save(function (err) {if (err) console.log ('Error attempting to save ' + p572.name)});
+
+var p573 = new PokedexEntry ({name: 'Cinccino', number: '573'});
+p573.save(function (err) {if (err) console.log ('Error attempting to save ' + p573.name)});
+
+var p574 = new PokedexEntry ({name: 'Gothita', number: '574'});
+p574.save(function (err) {if (err) console.log ('Error attempting to save ' + p574.name)});
+
+var p575 = new PokedexEntry ({name: 'Gothorita', number: '575'});
+p575.save(function (err) {if (err) console.log ('Error attempting to save ' + p575.name)});
+
+var p576 = new PokedexEntry ({name: 'Gothitelle', number: '576'});
+p576.save(function (err) {if (err) console.log ('Error attempting to save ' + p576.name)});
+
+var p577 = new PokedexEntry ({name: 'Solosis', number: '577'});
+p577.save(function (err) {if (err) console.log ('Error attempting to save ' + p577.name)});
+
+var p578 = new PokedexEntry ({name: 'Duosion', number: '578'});
+p578.save(function (err) {if (err) console.log ('Error attempting to save ' + p578.name)});
+
+var p579 = new PokedexEntry ({name: 'Reuniclus', number: '579'});
+p579.save(function (err) {if (err) console.log ('Error attempting to save ' + p579.name)});
+
+var p580 = new PokedexEntry ({name: 'Ducklett', number: '580'});
+p580.save(function (err) {if (err) console.log ('Error attempting to save ' + p580.name)});
+
+var p581 = new PokedexEntry ({name: 'Swanna', number: '581'});
+p581.save(function (err) {if (err) console.log ('Error attempting to save ' + p581.name)});
+
+var p582 = new PokedexEntry ({name: 'Vanillite', number: '582'});
+p582.save(function (err) {if (err) console.log ('Error attempting to save ' + p582.name)});
+
+var p583 = new PokedexEntry ({name: 'Vanillish', number: '583'});
+p583.save(function (err) {if (err) console.log ('Error attempting to save ' + p583.name)});
+
+var p584 = new PokedexEntry ({name: 'Vanilluxe', number: '584'});
+p584.save(function (err) {if (err) console.log ('Error attempting to save ' + p584.name)});
+
+var p585 = new PokedexEntry ({name: 'Deerling', number: '585'});
+p585.save(function (err) {if (err) console.log ('Error attempting to save ' + p585.name)});
+
+var p586 = new PokedexEntry ({name: 'Sawsbuck', number: '586'});
+p586.save(function (err) {if (err) console.log ('Error attempting to save ' + p586.name)});
+
+var p587 = new PokedexEntry ({name: 'Emolga', number: '587'});
+p587.save(function (err) {if (err) console.log ('Error attempting to save ' + p587.name)});
+
+var p588 = new PokedexEntry ({name: 'Karrablast', number: '588'});
+p588.save(function (err) {if (err) console.log ('Error attempting to save ' + p588.name)});
+
+var p589 = new PokedexEntry ({name: 'Escavalier', number: '589'});
+p589.save(function (err) {if (err) console.log ('Error attempting to save ' + p589.name)});
+
+var p590 = new PokedexEntry ({name: 'Foongus', number: '590'});
+p590.save(function (err) {if (err) console.log ('Error attempting to save ' + p590.name)});
+
+var p591 = new PokedexEntry ({name: 'Amoonguss', number: '591'});
+p591.save(function (err) {if (err) console.log ('Error attempting to save ' + p591.name)});
+
+var p592 = new PokedexEntry ({name: 'Frillish', number: '592'});
+p592.save(function (err) {if (err) console.log ('Error attempting to save ' + p592.name)});
+
+var p593 = new PokedexEntry ({name: 'Jellicent', number: '593'});
+p593.save(function (err) {if (err) console.log ('Error attempting to save ' + p593.name)});
+
+var p594 = new PokedexEntry ({name: 'Alomomola', number: '594'});
+p594.save(function (err) {if (err) console.log ('Error attempting to save ' + p594.name)});
+
+var p595 = new PokedexEntry ({name: 'Joltik', number: '595'});
+p595.save(function (err) {if (err) console.log ('Error attempting to save ' + p595.name)});
+
+var p596 = new PokedexEntry ({name: 'Galvantula', number: '596'});
+p596.save(function (err) {if (err) console.log ('Error attempting to save ' + p596.name)});
+
+var p597 = new PokedexEntry ({name: 'Ferroseed', number: '597'});
+p597.save(function (err) {if (err) console.log ('Error attempting to save ' + p597.name)});
+
+var p598 = new PokedexEntry ({name: 'Ferrothorn', number: '598'});
+p598.save(function (err) {if (err) console.log ('Error attempting to save ' + p598.name)});
+
+var p599 = new PokedexEntry ({name: 'Klink', number: '599'});
+p599.save(function (err) {if (err) console.log ('Error attempting to save ' + p599.name)});
+
+var p600 = new PokedexEntry ({name: 'Klang', number: '600'});
+p600.save(function (err) {if (err) console.log ('Error attempting to save ' + p600.name)});
+
+var p601 = new PokedexEntry ({name: 'Klinklang', number: '601'});
+p601.save(function (err) {if (err) console.log ('Error attempting to save ' + p601.name)});
+
+var p602 = new PokedexEntry ({name: 'Tynamo', number: '602'});
+p602.save(function (err) {if (err) console.log ('Error attempting to save ' + p602.name)});
+
+var p603 = new PokedexEntry ({name: 'Eelektrik', number: '603'});
+p603.save(function (err) {if (err) console.log ('Error attempting to save ' + p603.name)});
+
+var p604 = new PokedexEntry ({name: 'Eelektross', number: '604'});
+p604.save(function (err) {if (err) console.log ('Error attempting to save ' + p604.name)});
+
+var p605 = new PokedexEntry ({name: 'Elgyem', number: '605'});
+p605.save(function (err) {if (err) console.log ('Error attempting to save ' + p605.name)});
+
+var p606 = new PokedexEntry ({name: 'Beheeyem', number: '606'});
+p606.save(function (err) {if (err) console.log ('Error attempting to save ' + p606.name)});
+
+var p607 = new PokedexEntry ({name: 'Litwick', number: '607'});
+p607.save(function (err) {if (err) console.log ('Error attempting to save ' + p607.name)});
+
+var p608 = new PokedexEntry ({name: 'Lampent', number: '608'});
+p608.save(function (err) {if (err) console.log ('Error attempting to save ' + p608.name)});
+
+var p609 = new PokedexEntry ({name: 'Chandelure', number: '609'});
+p609.save(function (err) {if (err) console.log ('Error attempting to save ' + p609.name)});
+
+var p610 = new PokedexEntry ({name: 'Axew', number: '610'});
+p610.save(function (err) {if (err) console.log ('Error attempting to save ' + p610.name)});
+
+var p611 = new PokedexEntry ({name: 'Fraxure', number: '611'});
+p611.save(function (err) {if (err) console.log ('Error attempting to save ' + p611.name)});
+
+var p612 = new PokedexEntry ({name: 'Haxorus', number: '612'});
+p612.save(function (err) {if (err) console.log ('Error attempting to save ' + p612.name)});
+
+var p613 = new PokedexEntry ({name: 'Cubchoo', number: '613'});
+p613.save(function (err) {if (err) console.log ('Error attempting to save ' + p613.name)});
+
+var p614 = new PokedexEntry ({name: 'Beartic', number: '614'});
+p614.save(function (err) {if (err) console.log ('Error attempting to save ' + p614.name)});
+
+var p615 = new PokedexEntry ({name: 'Cryogonal', number: '615'});
+p615.save(function (err) {if (err) console.log ('Error attempting to save ' + p615.name)});
+
+var p616 = new PokedexEntry ({name: 'Shelmet', number: '616'});
+p616.save(function (err) {if (err) console.log ('Error attempting to save ' + p616.name)});
+
+var p617 = new PokedexEntry ({name: 'Accelgor', number: '617'});
+p617.save(function (err) {if (err) console.log ('Error attempting to save ' + p617.name)});
+
+var p618 = new PokedexEntry ({name: 'Stunfisk', number: '618'});
+p618.save(function (err) {if (err) console.log ('Error attempting to save ' + p618.name)});
+
+var p619 = new PokedexEntry ({name: 'Mienfoo', number: '619'});
+p619.save(function (err) {if (err) console.log ('Error attempting to save ' + p619.name)});
+
+var p620 = new PokedexEntry ({name: 'Mienshao', number: '620'});
+p620.save(function (err) {if (err) console.log ('Error attempting to save ' + p620.name)});
+
+var p621 = new PokedexEntry ({name: 'Druddigon', number: '621'});
+p621.save(function (err) {if (err) console.log ('Error attempting to save ' + p621.name)});
+
+var p622 = new PokedexEntry ({name: 'Golett', number: '622'});
+p622.save(function (err) {if (err) console.log ('Error attempting to save ' + p622.name)});
+
+var p623 = new PokedexEntry ({name: 'Golurk', number: '623'});
+p623.save(function (err) {if (err) console.log ('Error attempting to save ' + p623.name)});
+
+var p624 = new PokedexEntry ({name: 'Pawniard', number: '624'});
+p624.save(function (err) {if (err) console.log ('Error attempting to save ' + p624.name)});
+
+var p625 = new PokedexEntry ({name: 'Bisharp', number: '625'});
+p625.save(function (err) {if (err) console.log ('Error attempting to save ' + p625.name)});
+
+var p626 = new PokedexEntry ({name: 'Bouffalant', number: '626'});
+p626.save(function (err) {if (err) console.log ('Error attempting to save ' + p626.name)});
+
+var p627 = new PokedexEntry ({name: 'Rufflet', number: '627'});
+p627.save(function (err) {if (err) console.log ('Error attempting to save ' + p627.name)});
+
+var p628 = new PokedexEntry ({name: 'Braviary', number: '628'});
+p628.save(function (err) {if (err) console.log ('Error attempting to save ' + p628.name)});
+
+var p629 = new PokedexEntry ({name: 'Vullaby', number: '629'});
+p629.save(function (err) {if (err) console.log ('Error attempting to save ' + p629.name)});
+
+var p630 = new PokedexEntry ({name: 'Mandibuzz', number: '630'});
+p630.save(function (err) {if (err) console.log ('Error attempting to save ' + p630.name)});
+
+var p631 = new PokedexEntry ({name: 'Heatmor', number: '631'});
+p631.save(function (err) {if (err) console.log ('Error attempting to save ' + p631.name)});
+
+var p632 = new PokedexEntry ({name: 'Durant', number: '632'});
+p632.save(function (err) {if (err) console.log ('Error attempting to save ' + p632.name)});
+
+var p633 = new PokedexEntry ({name: 'Deino', number: '633'});
+p633.save(function (err) {if (err) console.log ('Error attempting to save ' + p633.name)});
+
+var p634 = new PokedexEntry ({name: 'Zweilous', number: '634'});
+p634.save(function (err) {if (err) console.log ('Error attempting to save ' + p634.name)});
+
+var p635 = new PokedexEntry ({name: 'Hydreigon', number: '635'});
+p635.save(function (err) {if (err) console.log ('Error attempting to save ' + p635.name)});
+
+var p636 = new PokedexEntry ({name: 'Larvesta', number: '636'});
+p636.save(function (err) {if (err) console.log ('Error attempting to save ' + p636.name)});
+
+var p637 = new PokedexEntry ({name: 'Volcarona', number: '637'});
+p637.save(function (err) {if (err) console.log ('Error attempting to save ' + p637.name)});
+
+var p638 = new PokedexEntry ({name: 'Cobalion', number: '638'});
+p638.save(function (err) {if (err) console.log ('Error attempting to save ' + p638.name)});
+
+var p639 = new PokedexEntry ({name: 'Terrakion', number: '639'});
+p639.save(function (err) {if (err) console.log ('Error attempting to save ' + p639.name)});
+
+var p640 = new PokedexEntry ({name: 'Virizion', number: '640'});
+p640.save(function (err) {if (err) console.log ('Error attempting to save ' + p640.name)});
+
+var p641 = new PokedexEntry ({name: 'Tornadus', number: '641'});
+p641.save(function (err) {if (err) console.log ('Error attempting to save ' + p641.name)});
+
+var p642 = new PokedexEntry ({name: 'Thundurus', number: '642'});
+p642.save(function (err) {if (err) console.log ('Error attempting to save ' + p642.name)});
+
+var p643 = new PokedexEntry ({name: 'Reshiram', number: '643'});
+p643.save(function (err) {if (err) console.log ('Error attempting to save ' + p643.name)});
+
+var p644 = new PokedexEntry ({name: 'Zekrom', number: '644'});
+p644.save(function (err) {if (err) console.log ('Error attempting to save ' + p644.name)});
+
+var p645 = new PokedexEntry ({name: 'Landorus', number: '645'});
+p645.save(function (err) {if (err) console.log ('Error attempting to save ' + p645.name)});
+
+var p646 = new PokedexEntry ({name: 'Kyurem', number: '646'});
+p646.save(function (err) {if (err) console.log ('Error attempting to save ' + p646.name)});
+
+var p647 = new PokedexEntry ({name: 'Keldeo', number: '647'});
+p647.save(function (err) {if (err) console.log ('Error attempting to save ' + p647.name)});
+
+var p648 = new PokedexEntry ({name: 'Meloetta', number: '648'});
+p648.save(function (err) {if (err) console.log ('Error attempting to save ' + p648.name)});
+
+var p649 = new PokedexEntry ({name: 'Genesect', number: '649'});
+p649.save(function (err) {if (err) console.log ('Error attempting to save ' + p649.name)});
+
+var p650 = new PokedexEntry ({name: 'Chespin', number: '650'});
+p650.save(function (err) {if (err) console.log ('Error attempting to save ' + p650.name)});
+
+var p651 = new PokedexEntry ({name: 'Quilladin', number: '651'});
+p651.save(function (err) {if (err) console.log ('Error attempting to save ' + p651.name)});
+
+var p652 = new PokedexEntry ({name: 'Chesnaught', number: '652'});
+p652.save(function (err) {if (err) console.log ('Error attempting to save ' + p652.name)});
+
+var p653 = new PokedexEntry ({name: 'Fennekin', number: '653'});
+p653.save(function (err) {if (err) console.log ('Error attempting to save ' + p653.name)});
+
+var p654 = new PokedexEntry ({name: 'Braixen', number: '654'});
+p654.save(function (err) {if (err) console.log ('Error attempting to save ' + p654.name)});
+
+var p655 = new PokedexEntry ({name: 'Delphox', number: '655'});
+p655.save(function (err) {if (err) console.log ('Error attempting to save ' + p655.name)});
+
+var p656 = new PokedexEntry ({name: 'Froakie', number: '656'});
+p656.save(function (err) {if (err) console.log ('Error attempting to save ' + p656.name)});
+
+var p657 = new PokedexEntry ({name: 'Frogadier', number: '657'});
+p657.save(function (err) {if (err) console.log ('Error attempting to save ' + p657.name)});
+
+var p658 = new PokedexEntry ({name: 'Greninja', number: '658'});
+p658.save(function (err) {if (err) console.log ('Error attempting to save ' + p658.name)});
+
+var p659 = new PokedexEntry ({name: 'Bunnelby', number: '659'});
+p659.save(function (err) {if (err) console.log ('Error attempting to save ' + p659.name)});
+
+var p660 = new PokedexEntry ({name: 'Diggersby', number: '660'});
+p660.save(function (err) {if (err) console.log ('Error attempting to save ' + p660.name)});
+
+var p661 = new PokedexEntry ({name: 'Fletchling', number: '661'});
+p661.save(function (err) {if (err) console.log ('Error attempting to save ' + p661.name)});
+
+var p662 = new PokedexEntry ({name: 'Fletchinder', number: '662'});
+p662.save(function (err) {if (err) console.log ('Error attempting to save ' + p662.name)});
+
+var p663 = new PokedexEntry ({name: 'Talonflame', number: '663'});
+p663.save(function (err) {if (err) console.log ('Error attempting to save ' + p663.name)});
+
+var p664 = new PokedexEntry ({name: 'Scatterbug', number: '664'});
+p664.save(function (err) {if (err) console.log ('Error attempting to save ' + p664.name)});
+
+var p665 = new PokedexEntry ({name: 'Spewpa', number: '665'});
+p665.save(function (err) {if (err) console.log ('Error attempting to save ' + p665.name)});
+
+var p666 = new PokedexEntry ({name: 'Vivillon', number: '666'});
+p666.save(function (err) {if (err) console.log ('Error attempting to save ' + p666.name)});
+
+var p667 = new PokedexEntry ({name: 'Litleo', number: '667'});
+p667.save(function (err) {if (err) console.log ('Error attempting to save ' + p667.name)});
+
+var p668 = new PokedexEntry ({name: 'Pyroar', number: '668'});
+p668.save(function (err) {if (err) console.log ('Error attempting to save ' + p668.name)});
+
+var p669 = new PokedexEntry ({name: 'Flabébé', number: '669'});
+p669.save(function (err) {if (err) console.log ('Error attempting to save ' + p669.name)});
+
+var p670 = new PokedexEntry ({name: 'Floette', number: '670'});
+p670.save(function (err) {if (err) console.log ('Error attempting to save ' + p670.name)});
+
+var p671 = new PokedexEntry ({name: 'Florges', number: '671'});
+p671.save(function (err) {if (err) console.log ('Error attempting to save ' + p671.name)});
+
+var p672 = new PokedexEntry ({name: 'Skiddo', number: '672'});
+p672.save(function (err) {if (err) console.log ('Error attempting to save ' + p672.name)});
+
+var p673 = new PokedexEntry ({name: 'Gogoat', number: '673'});
+p673.save(function (err) {if (err) console.log ('Error attempting to save ' + p673.name)});
+
+var p674 = new PokedexEntry ({name: 'Pancham', number: '674'});
+p674.save(function (err) {if (err) console.log ('Error attempting to save ' + p674.name)});
+
+var p675 = new PokedexEntry ({name: 'Pangoro', number: '675'});
+p675.save(function (err) {if (err) console.log ('Error attempting to save ' + p675.name)});
+
+var p676 = new PokedexEntry ({name: 'Furfrou', number: '676'});
+p676.save(function (err) {if (err) console.log ('Error attempting to save ' + p676.name)});
+
+var p677 = new PokedexEntry ({name: 'Espurr', number: '677'});
+p677.save(function (err) {if (err) console.log ('Error attempting to save ' + p677.name)});
+
+var p678 = new PokedexEntry ({name: 'Meowstic', number: '678'});
+p678.save(function (err) {if (err) console.log ('Error attempting to save ' + p678.name)});
+
+var p679 = new PokedexEntry ({name: 'Honedge', number: '679'});
+p679.save(function (err) {if (err) console.log ('Error attempting to save ' + p679.name)});
+
+var p680 = new PokedexEntry ({name: 'Doublade', number: '680'});
+p680.save(function (err) {if (err) console.log ('Error attempting to save ' + p680.name)});
+
+var p681 = new PokedexEntry ({name: 'Aegislash', number: '681'});
+p681.save(function (err) {if (err) console.log ('Error attempting to save ' + p681.name)});
+
+var p682 = new PokedexEntry ({name: 'Spritzee', number: '682'});
+p682.save(function (err) {if (err) console.log ('Error attempting to save ' + p682.name)});
+
+var p683 = new PokedexEntry ({name: 'Aromatisse', number: '683'});
+p683.save(function (err) {if (err) console.log ('Error attempting to save ' + p683.name)});
+
+var p684 = new PokedexEntry ({name: 'Swirlix', number: '684'});
+p684.save(function (err) {if (err) console.log ('Error attempting to save ' + p684.name)});
+
+var p685 = new PokedexEntry ({name: 'Slurpuff', number: '685'});
+p685.save(function (err) {if (err) console.log ('Error attempting to save ' + p685.name)});
+
+var p686 = new PokedexEntry ({name: 'Inkay', number: '686'});
+p686.save(function (err) {if (err) console.log ('Error attempting to save ' + p686.name)});
+
+var p687 = new PokedexEntry ({name: 'Malamar', number: '687'});
+p687.save(function (err) {if (err) console.log ('Error attempting to save ' + p687.name)});
+
+var p688 = new PokedexEntry ({name: 'Binacle', number: '688'});
+p688.save(function (err) {if (err) console.log ('Error attempting to save ' + p688.name)});
+
+var p689 = new PokedexEntry ({name: 'Barbaracle', number: '689'});
+p689.save(function (err) {if (err) console.log ('Error attempting to save ' + p689.name)});
+
+var p690 = new PokedexEntry ({name: 'Skrelp', number: '690'});
+p690.save(function (err) {if (err) console.log ('Error attempting to save ' + p690.name)});
+
+var p691 = new PokedexEntry ({name: 'Dragalge', number: '691'});
+p691.save(function (err) {if (err) console.log ('Error attempting to save ' + p691.name)});
+
+var p692 = new PokedexEntry ({name: 'Clauncher', number: '692'});
+p692.save(function (err) {if (err) console.log ('Error attempting to save ' + p692.name)});
+
+var p693 = new PokedexEntry ({name: 'Clawitzer', number: '693'});
+p693.save(function (err) {if (err) console.log ('Error attempting to save ' + p693.name)});
+
+var p694 = new PokedexEntry ({name: 'Helioptile', number: '694'});
+p694.save(function (err) {if (err) console.log ('Error attempting to save ' + p694.name)});
+
+var p695 = new PokedexEntry ({name: 'Heliolisk', number: '695'});
+p695.save(function (err) {if (err) console.log ('Error attempting to save ' + p695.name)});
+
+var p696 = new PokedexEntry ({name: 'Tyrunt', number: '696'});
+p696.save(function (err) {if (err) console.log ('Error attempting to save ' + p696.name)});
+
+var p697 = new PokedexEntry ({name: 'Tyrantrum', number: '697'});
+p697.save(function (err) {if (err) console.log ('Error attempting to save ' + p697.name)});
+
+var p698 = new PokedexEntry ({name: 'Amaura', number: '698'});
+p698.save(function (err) {if (err) console.log ('Error attempting to save ' + p698.name)});
+
+var p699 = new PokedexEntry ({name: 'Aurorus', number: '699'});
+p699.save(function (err) {if (err) console.log ('Error attempting to save ' + p699.name)});
+
+var p700 = new PokedexEntry ({name: 'Sylveon', number: '700'});
+p700.save(function (err) {if (err) console.log ('Error attempting to save ' + p700.name)});
+
+var p701 = new PokedexEntry ({name: 'Hawlucha', number: '701'});
+p701.save(function (err) {if (err) console.log ('Error attempting to save ' + p701.name)});
+
+var p702 = new PokedexEntry ({name: 'Dedenne', number: '702'});
+p702.save(function (err) {if (err) console.log ('Error attempting to save ' + p702.name)});
+
+var p703 = new PokedexEntry ({name: 'Carbink', number: '703'});
+p703.save(function (err) {if (err) console.log ('Error attempting to save ' + p703.name)});
+
+var p704 = new PokedexEntry ({name: 'Goomy', number: '704'});
+p704.save(function (err) {if (err) console.log ('Error attempting to save ' + p704.name)});
+
+var p705 = new PokedexEntry ({name: 'Sliggoo', number: '705'});
+p705.save(function (err) {if (err) console.log ('Error attempting to save ' + p705.name)});
+
+var p706 = new PokedexEntry ({name: 'Goodra', number: '706'});
+p706.save(function (err) {if (err) console.log ('Error attempting to save ' + p706.name)});
+
+var p707 = new PokedexEntry ({name: 'Klefki', number: '707'});
+p707.save(function (err) {if (err) console.log ('Error attempting to save ' + p707.name)});
+
+var p708 = new PokedexEntry ({name: 'Phantump', number: '708'});
+p708.save(function (err) {if (err) console.log ('Error attempting to save ' + p708.name)});
+
+var p709 = new PokedexEntry ({name: 'Trevenant', number: '709'});
+p709.save(function (err) {if (err) console.log ('Error attempting to save ' + p709.name)});
+
+var p710 = new PokedexEntry ({name: 'Pumpkaboo', number: '710'});
+p710.save(function (err) {if (err) console.log ('Error attempting to save ' + p710.name)});
+
+var p711 = new PokedexEntry ({name: 'Gourgeist', number: '711'});
+p711.save(function (err) {if (err) console.log ('Error attempting to save ' + p711.name)});
+
+var p712 = new PokedexEntry ({name: 'Bergmite', number: '712'});
+p712.save(function (err) {if (err) console.log ('Error attempting to save ' + p712.name)});
+
+var p713 = new PokedexEntry ({name: 'Avalugg', number: '713'});
+p713.save(function (err) {if (err) console.log ('Error attempting to save ' + p713.name)});
+
+var p714 = new PokedexEntry ({name: 'Noibat', number: '714'});
+p714.save(function (err) {if (err) console.log ('Error attempting to save ' + p714.name)});
+
+var p715 = new PokedexEntry ({name: 'Noivern', number: '715'});
+p715.save(function (err) {if (err) console.log ('Error attempting to save ' + p715.name)});
+
+var p716 = new PokedexEntry ({name: 'Xerneas', number: '716'});
+p716.save(function (err) {if (err) console.log ('Error attempting to save ' + p716.name)});
+
+var p717 = new PokedexEntry ({name: 'Yveltal', number: '717'});
+p717.save(function (err) {if (err) console.log ('Error attempting to save ' + p717.name)});
+
+var p718 = new PokedexEntry ({name: 'Zygardetal', number: '718'});
+p718.save(function (err) {if (err) console.log ('Error attempting to save ' + p718.name)});
