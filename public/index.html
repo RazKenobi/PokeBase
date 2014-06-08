@@ -26,15 +26,24 @@
 
 <!-- SET THE CONTROLLER AND GET THE POKEDEX -->
 <body ng-controller="mainController">
+
 	<div class="container">
 
 		<!--- POKEDEX -->
+
 		<div id="list" class="row">
 			<div class="col-sm-4 col-sm-offset-4">
+				
+
+				<span  class="nullable">
+					<select ng-model="pokedex" ng-options="pokemon.name for pokemon in pokedex">
+						<option value="">-- choose mon --</option>
+					</select>
+				</span><br>
 
 				<!-- LOOP OVER THE POKEMON IN $scope.pokedex -->
 				<li class="animate-repeat" ng-repeat="pokemon in pokedex">
-				#{{pokemon.number}} and {{pokemon.name}}
+				#{{pokemon.number}} {{pokemon.name}}
 				</span>
 
 			</div>
