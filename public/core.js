@@ -2,6 +2,7 @@ var pokebase = angular.module('pokebase', []);
 
 function mainController($scope, $http) {
 	$scope.formData = {};
+	$scope.pokedex = [];
 
 	$http.get('/api/pokedex')
 		// when landing on the page, get all pokemon and show them
@@ -13,4 +14,6 @@ function mainController($scope, $http) {
 		.error(function(data) {
 			console.log('Error: ' + data);
 		});
+
+	$scope.myPokemon = $scope.pokedex[0];
 }
